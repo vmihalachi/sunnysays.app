@@ -1,0 +1,116 @@
+{
+  "locale": {
+    "lang": "ro"
+  },
+  "meta": {
+    "title": "sunnysays: o floare-a-soarelui mică ce locuiește în bara de meniu",
+    "description": "Sunny e o floare-a-soarelui într-un ghiveci, care locuiește în bara de meniu a Mac-ului tău și spune câte ceva cam o dată pe oră. Tace în timpul apelurilor. Fără rețea. Gratuită.",
+    "url": "https://sunnysays.app/ro/",
+    "ogTitle": "sunnysays: o floare-a-soarelui mică ce vorbește",
+    "ogDescription": "Sunny locuiește în bara ta de meniu, spune câte ceva din când în când și tace în timpul apelurilor. Gratuită pentru Mac.",
+    "ogImageAlt": "Sunny, o floare-a-soarelui zâmbitoare într-un ghiveci de teracotă, lângă un balon de vorbire."
+  },
+  "og": {
+    "title1": "O floare-a-soarelui mică",
+    "title2": "care spune lucruri.",
+    "subtitle": "Locuiește în bara de meniu a Mac-ului. Tace în timpul apelurilor."
+  },
+  "a11y": {
+    "skipLink": "Sari la conținut",
+    "sunny": "Sunny, o floare-a-soarelui într-un ghiveci. Apasă pe ea ca să auzi o replică."
+  },
+  "nav": {
+    "ariaLabel": "Principal",
+    "wordmark": "sunnysays",
+    "wordmarkAria": "sunnysays, înapoi sus",
+    "try": "Încearcă",
+    "privacy": "Confidențialitate",
+    "cta": "Ia-l pe Sunny",
+    "languageLabel": "Limbă",
+    "themeLabel": "Aspect"
+  },
+  "store": {
+    "mac": "Descarcă din Mac App Store",
+    "soon": "În curând în Mac App Store",
+    "note": "Gratuit · macOS 14 Sonoma sau mai nou"
+  },
+  "hero": {
+    "title": "O floare-a-soarelui mică ce spune lucruri.",
+    "lede": "Stă în bara de meniu a Mac-ului, mai zice câte ceva din când în când și știe când să tacă. Pune-l la încercare mai jos.",
+    "say": "Spune ceva",
+    "shh": "Șșt",
+    "wake": "Trezește-te",
+    "clickMe": "Apasă-mă!",
+    "voiceLabel": "Vocea lui Sunny"
+  },
+  "get": {
+    "title": "Fă-i loc lui Sunny lângă fereastra ta.",
+    "lede": "E mic, e politicos și se bucură să te vadă."
+  },
+  "footer": {
+    "privacy": "Confidențialitate",
+    "terms": "Termeni",
+    "contact": "Contact",
+    "openSource": "Acest site este open source",
+    "fonts": "Scris cu Fredoka (SIL Open Font License)."
+  },
+  "notFound": {
+    "metaTitle": "Negăsit · sunnysays",
+    "title": "Aici nu crește nimic.",
+    "body": "Pagina asta nu există. Sunny a căutat peste tot. Ei bine, peste tot unde vede din ghiveci.",
+    "home": "Înapoi la Sunny"
+  },
+  "runtime": {
+    "themeLabels": {
+      "system": "Aspect: urmează sistemul",
+      "light": "Aspect: luminos",
+      "dark": "Aspect: întunecat"
+    },
+    "shushed": "(șșt)",
+    "rules": {
+      "start": "Apasă pe ce vrei mai jos. Sunny respectă aceleași reguli ca pe Mac.",
+      "poke": "Apasă oricând. Pe Mac vorbește și singur, cam o dată pe oră.",
+      "polite": "Nu acum: n-ar fi frumos.",
+      "shushedPoke": "Tace mâlc. Apasă Trezește-te ca să-l auzi din nou.",
+      "shh": "Șșt: pentru o oră, pentru azi sau până zici tu.",
+      "wake": "Se trezește și zice o vorbă.",
+      "wakeQuiet": "S-a trezit, dar tot tace.",
+      "callCut": "A început un apel: s-a oprit la jumătatea vorbei.",
+      "call": "Cât ești în apel, nu scoate o vorbă.",
+      "callOver": "Gata apelul: o vorbă spusă încet, apoi totul ca înainte.",
+      "callOverQuiet": "Gata apelul. Dar tot tace.",
+      "full": "Ecran complet: așteaptă să revii.",
+      "fullOff": "Gata cu ecranul complet. N-a vorbit nicio clipă peste slide-uri.",
+      "away": "Birou gol sau ecran blocat: nu vorbește cu pereții.",
+      "back": "Bine ai revenit. O vorbă și te lasă să lucrezi.",
+      "backQuiet": "Bine ai revenit, dar tot tace.",
+      "battery": "Observă și mărunțișurile, cum ar fi bateria pe terminate.",
+      "batteryQuiet": "A văzut bateria, dar nu comentează.",
+      "batteryOff": "Pus la încărcat.",
+      "dark": "Modul întunecat? Și asta observă.",
+      "darkQuiet": "Modul întunecat. A băgat de seamă, dar tace.",
+      "darkOff": "Înapoi la lumină.",
+      "night": "Când se face târziu, ți-o spune cu blândețe. Orele lui le alegi tu.",
+      "nightQuiet": "E târziu și e liniște.",
+      "nightOff": "Iar s-a făcut dimineață."
+    }
+  },
+  "desk": {
+    "ariaLabel": "Un ecran de Mac în miniatură, cu panoul lui Sunny deschis din bara de meniu",
+    "toggles": "Și dacă…",
+    "call": "Intri într-un apel",
+    "full": "Treci pe ecran complet",
+    "away": "Pleci de la birou",
+    "battery": "Bateria e la 8%",
+    "dark": "Activezi modul întunecat",
+    "night": "E 2 noaptea",
+    "callWindow": "Ședință cu echipa",
+    "presenting": "Prezentare · ecran complet",
+    "locked": "Blocat"
+  },
+  "promise": {
+    "title": "Manierat, discret, gratuit.",
+    "network": "Fără internet",
+    "body": "Toate funcțiile sunt gratuite. Bacșișurile trec prin App Store, nu deblochează nimic și sunt doar un mulțumesc."
+  }
+}

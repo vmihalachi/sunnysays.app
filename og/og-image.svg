@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <!-- The social card. Sunny is design/characters/sunflower (awake); copy comes from the locale's og object. -->
+  <rect width="1200" height="630" fill="#FFF8E7"/>
+  <circle cx="1040" cy="90" r="260" fill="#FFE9A8" opacity="0.6"/>
+  <g transform="translate(770 120) scale(3.3)"><g id="stem"><path d="M60 70Q57 86 60 100" fill="none" stroke="#6E9E45" stroke-width="6" stroke-linecap="round"/></g><g fill="#7FB04F"><ellipse cx="48" cy="89" rx="11" ry="6" transform="rotate(-25 48 89)"/><ellipse cx="72" cy="84" rx="11" ry="6" transform="rotate(25 72 84)"/></g><path d="M37 102H83V107Q83 129 60 129Q37 129 37 107Z" fill="#D9895A"/><rect x="33" y="97" width="54" height="10" rx="5" fill="#C2703F"/><g fill="#FFD25A" stroke="#EBAA2E" stroke-width="1.5"><circle cx="60" cy="20" r="12"/><circle cx="74.11" cy="24.58" r="12"/><circle cx="82.83" cy="36.58" r="12"/><circle cx="82.83" cy="51.42" r="12"/><circle cx="74.11" cy="63.42" r="12"/><circle cx="60" cy="68" r="12"/><circle cx="45.89" cy="63.42" r="12"/><circle cx="37.17" cy="51.42" r="12"/><circle cx="37.17" cy="36.58" r="12"/><circle cx="45.89" cy="24.58" r="12"/></g><circle cx="60" cy="44" r="22" fill="#8B5A2B"/><circle cx="60" cy="44" r="17" fill="#97643A"/><g fill="#F4A08C"><ellipse cx="47.5" cy="50" rx="3.4" ry="2.1"/><ellipse cx="72.5" cy="50" rx="3.4" ry="2.1"/></g><ellipse cx="52.5" cy="42" rx="3" ry="4" fill="#2B1A0E"/><circle cx="53.6" cy="40.4" r="1.2" fill="#FFFFFF"/><ellipse cx="67.5" cy="42" rx="3" ry="4" fill="#2B1A0E"/><circle cx="68.6" cy="40.4" r="1.2" fill="#FFFFFF"/><path d="M57 49Q60 52.4 63 49" fill="none" stroke="#2B1A0E" stroke-width="1.7" stroke-linecap="round"/></g>
+  <g transform="translate(460 100)">
+    <rect x="0" y="0" width="380" height="76" rx="26" fill="#FFFDF7" stroke="#4A2E1A" stroke-width="4"/>
+    <path d="M380 30 L404 40 L380 52" fill="#FFFDF7" stroke="#4A2E1A" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="376" y="33" width="8" height="16" fill="#FFFDF7"/>
+    <text x="190" y="49" text-anchor="middle" font-family="Fredoka" font-weight="600" font-size="28" fill="#4A2E1A">{{og.bubble}}</text>
+  </g>
+  <text x="80" y="300" font-family="Fredoka" font-weight="600" font-size="76" fill="#4A2E1A">{{og.title1}}</text>
+  <text x="80" y="388" font-family="Fredoka" font-weight="600" font-size="76" fill="#4A2E1A">{{og.title2}}</text>
+  <rect x="80" y="420" width="110" height="12" rx="6" fill="#F7C948"/>
+  <text x="80" y="490" font-family="Fredoka" font-weight="500" font-size="32" fill="#8A5A00">{{og.subtitle}}</text>
+  <text x="80" y="560" font-family="Fredoka" font-weight="600" font-size="30" fill="#4A2E1A">sunnysays</text>
+</svg>

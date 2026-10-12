@@ -1,0 +1,116 @@
+{
+  "locale": {
+    "lang": "de"
+  },
+  "meta": {
+    "title": "sunnysays: eine kleine Sonnenblume in deiner Menüleiste",
+    "description": "Sunny ist eine Sonnenblume im Topf, die in der Menüleiste deines Macs wohnt und ungefähr einmal pro Stunde etwas sagt. Leise während Anrufen. Kein Netzwerk. Kostenlos.",
+    "url": "https://sunnysays.app/de/",
+    "ogTitle": "sunnysays: eine kleine Sonnenblume, die redet",
+    "ogDescription": "Sunny wohnt in deiner Menüleiste, sagt hin und wieder etwas und ist bei Anrufen still. Kostenlos für den Mac.",
+    "ogImageAlt": "Sunny, eine lächelnde Sonnenblume in einem Terrakottatopf, neben einer Sprechblase."
+  },
+  "og": {
+    "title1": "Eine kleine Sonnenblume,",
+    "title2": "die etwas zu sagen hat.",
+    "subtitle": "Wohnt in der Menüleiste deines Macs. Leise bei Anrufen."
+  },
+  "a11y": {
+    "skipLink": "Zum Inhalt springen",
+    "sunny": "Sunny, eine Sonnenblume im Topf. Drück drauf, um einen Spruch zu hören."
+  },
+  "nav": {
+    "ariaLabel": "Hauptnavigation",
+    "wordmark": "sunnysays",
+    "wordmarkAria": "sunnysays, zurück nach oben",
+    "try": "Ausprobieren",
+    "privacy": "Datenschutz",
+    "cta": "Sunny holen",
+    "languageLabel": "Sprache",
+    "themeLabel": "Erscheinungsbild"
+  },
+  "store": {
+    "mac": "Im Mac App Store laden",
+    "soon": "Bald im Mac App Store",
+    "note": "Kostenlos · ab macOS 14 Sonoma"
+  },
+  "hero": {
+    "title": "Eine kleine Sonnenblume, die etwas zu sagen hat.",
+    "lede": "Sunny wohnt in der Menüleiste deines Macs, sagt ab und zu etwas und weiß, wann Stille gefragt ist. Spiel unten einen Tag mit Sunny durch.",
+    "say": "Etwas sagen",
+    "shh": "Psst",
+    "wake": "Aufwecken",
+    "clickMe": "Klick mich!",
+    "voiceLabel": "Sunnys Stimme"
+  },
+  "get": {
+    "title": "Gib Sunny einen Platz am Fenster.",
+    "lede": "Es ist klein, höflich und freut sich, dich zu sehen."
+  },
+  "footer": {
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "contact": "Kontakt",
+    "openSource": "Diese Website ist Open Source",
+    "fonts": "Gesetzt in Fredoka (SIL Open Font License)."
+  },
+  "notFound": {
+    "metaTitle": "Nicht gefunden · sunnysays",
+    "title": "Hier wächst nichts.",
+    "body": "Diese Seite gibt es nicht. Sunny hat überall nachgesehen. Na ja, überall, was es vom Topf aus sehen kann.",
+    "home": "Zurück zu Sunny"
+  },
+  "runtime": {
+    "themeLabels": {
+      "system": "Erscheinungsbild: wie das System",
+      "light": "Erscheinungsbild: hell",
+      "dark": "Erscheinungsbild: dunkel"
+    },
+    "shushed": "(psst)",
+    "rules": {
+      "start": "Tipp unten auf irgendwas. Sunny hält sich an dieselben Regeln wie auf deinem Mac.",
+      "poke": "Drück, so oft du willst. Auf deinem Mac meldet sich Sunny auch von selbst, ungefähr einmal pro Stunde.",
+      "polite": "Gerade nicht: Sunny hält sich höflich zurück.",
+      "shushedPoke": "Gerade auf Psst. Mit „Aufwecken“ meldet sich Sunny wieder.",
+      "shh": "Psst: eine Stunde, den restlichen Tag oder bis auf Weiteres.",
+      "wake": "Sunny wacht auf, mit genau einem Spruch.",
+      "wakeQuiet": "Wach, aber noch mucksmäuschenstill.",
+      "callCut": "Ein Call beginnt, und Sunny verstummt mitten im Wort.",
+      "call": "Im Call kein Mucks.",
+      "callOver": "Call vorbei: ein leiser Spruch, dann alles wie immer.",
+      "callOverQuiet": "Call vorbei. Sunny bleibt trotzdem still.",
+      "full": "Vollbild: Sunny wartet, bis du wieder da bist.",
+      "fullOff": "Vollbild aus. Sunny ist deinen Folien nie ins Wort gefallen.",
+      "away": "Platz leer oder Bildschirm gesperrt: Sunny redet nicht gegen die Wand.",
+      "back": "Da bist du ja wieder. Ein Spruch, dann lässt Sunny dich in Ruhe arbeiten.",
+      "backQuiet": "Da bist du ja wieder. Sunny bleibt aber still.",
+      "battery": "Sunny merkt auch Kleinigkeiten, zum Beispiel einen fast leeren Akku.",
+      "batteryQuiet": "Akku fast leer: Sunny hat’s gemerkt, sagt aber nichts.",
+      "batteryOff": "Wieder am Strom.",
+      "dark": "Dunkelmodus: Auch das merkt Sunny.",
+      "darkQuiet": "Dunkelmodus. Still und leise notiert.",
+      "darkOff": "Wieder hell.",
+      "night": "Spät in der Nacht sagt Sunny das, ganz sanft. Die Sprechzeiten legst du fest.",
+      "nightQuiet": "Es ist spät. Sunny schweigt.",
+      "nightOff": "Schon wieder Morgen."
+    }
+  },
+  "desk": {
+    "ariaLabel": "Ein kleiner Mac-Bildschirm, auf dem Sunnys Fenster aus der Menüleiste offen ist",
+    "toggles": "Stell Sunny auf die Probe",
+    "call": "Ab in den Call",
+    "full": "Vollbild an",
+    "away": "Kurz weg",
+    "battery": "Akku bei 8%",
+    "dark": "Dunkelmodus",
+    "night": "2 Uhr nachts",
+    "callWindow": "Team-Call",
+    "presenting": "Präsentation · Vollbild",
+    "locked": "Gesperrt"
+  },
+  "promise": {
+    "title": "Höflich, diskret, gratis.",
+    "network": "Kein Netzwerk",
+    "body": "Alles ist gratis. Trinkgeld läuft über den App Store, schaltet nichts frei und ist einfach ein Dankeschön."
+  }
+}

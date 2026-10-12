@@ -1,0 +1,234 @@
+{
+  "phrase.poke-here": {
+    "de": "Ich bin da! Was gibt's?",
+    "en": "I'm here! What's up?",
+    "es": "¡Aquí estoy! ¿Qué pasa?",
+    "fr": "Je suis là ! Quoi de neuf ?",
+    "it": "Eccomi! Dimmi tutto.",
+    "pt-BR": "Estou aqui! E aí?",
+    "ro": "Sunt aici! Ce-i nou?"
+  },
+  "phrase.poke-petals": {
+    "de": "Du hast gerufen? Ich bin ganz für dich da. Mit allen Blütenblättern.",
+    "en": "You called? I'm all yours. Petals and all.",
+    "es": "¿Me llamabas? Aquí me tienes, con pétalos y todo.",
+    "fr": "Tu m'appelais ? Je suis à toi, pétales compris.",
+    "it": "Hai chiamato? Eccomi qua, petali compresi.",
+    "pt-BR": "Chamou? Estou aqui para você, com pétalas e tudo.",
+    "ro": "M-ai chemat? Mă ai la dispoziție, cu tot cu petale."
+  },
+  "phrase.poke-pressed": {
+    "de": "Du hast mich gedrückt! Ich meine, den Knopf.",
+    "en": "You pressed me! I mean, the button.",
+    "es": "¡Me pulsaste! Bueno, el botón.",
+    "fr": "Tu as appuyé sur moi ! Enfin, sur le bouton.",
+    "it": "Mi hai premuto! Cioè, il pulsante.",
+    "pt-BR": "Você me apertou! Quer dizer, o botão.",
+    "ro": "M-ai apăsat! Adică, butonul."
+  },
+  "phrase.poke-always": {
+    "de": "War das für mich? Es ist immer für mich.",
+    "en": "Was that for me? It's always for me.",
+    "es": "¿Eso era para mí? Siempre es para mí.",
+    "fr": "C'était pour moi ? C'est toujours pour moi.",
+    "it": "Era per me? È sempre per me.",
+    "pt-BR": "Isso foi para mim? É sempre para mim.",
+    "ro": "A fost pentru mine? E mereu pentru mine."
+  },
+  "phrase.poke-yours": {
+    "de": "Hier! Immer noch gelb, immer noch für dich da.",
+    "en": "Here! Still yellow, still yours.",
+    "es": "¡Aquí! Con el amarillo de siempre y a tu lado.",
+    "fr": "Me voici ! Toujours jaune, toujours à toi.",
+    "it": "Eccomi! Il solito giallo, sempre qui per te.",
+    "pt-BR": "Aqui! O amarelo de sempre, sempre com você.",
+    "ro": "Aici! Cu tot galbenul meu, doar pentru tine."
+  },
+  "phrase.general-believe": {
+    "de": "Ich sehe die Sonne von hier nicht. Ich glaube einfach an sie.",
+    "en": "I can't see the sun from here. I just believe in it.",
+    "es": "Desde aquí no veo el sol. Solo creo en él.",
+    "fr": "Je ne vois pas le soleil d'ici. J'y crois, c'est tout.",
+    "it": "Da qui non vedo il sole. Ci credo e basta.",
+    "pt-BR": "Não consigo ver o sol daqui. Eu só acredito nele.",
+    "ro": "De aici nu văd soarele. Dar cred în el."
+  },
+  "phrase.general-photosynthesis": {
+    "de": "Die Fotosynthese läuft super, danke der Nachfrage.",
+    "en": "Photosynthesis is going great, thanks for asking.",
+    "es": "La fotosíntesis va genial, gracias por preguntar.",
+    "fr": "La photosynthèse se passe très bien, merci de t'en soucier.",
+    "it": "La fotosintesi va alla grande, grazie di avermelo chiesto.",
+    "pt-BR": "A fotossíntese vai muito bem, valeu por perguntar.",
+    "ro": "Fotosinteza merge strună, mersi că întrebi."
+  },
+  "phrase.general-bee": {
+    "de": "Einmal kam eine Biene vorbei. Wir haben genickt.",
+    "en": "A bee came by once. We nodded.",
+    "es": "Una vez pasó una abeja. Nos saludamos con la cabeza.",
+    "fr": "Une abeille est passée, un jour. On s'est fait un signe.",
+    "it": "Una volta è passata un'ape. Un cenno a testa, e via.",
+    "pt-BR": "Uma abelha passou aqui uma vez. A gente se cumprimentou.",
+    "ro": "A trecut o albină odată. Ne-am salutat din cap."
+  },
+  "phrase.general-roots": {
+    "de": "Die Wurzeln machen die ganze Arbeit und keiner klatscht. Ich klatsche.",
+    "en": "Roots do all the work and nobody claps. I'm clapping.",
+    "es": "Las raíces hacen todo el trabajo y nadie aplaude. Yo aplaudo.",
+    "fr": "Les racines font tout le travail et personne n'applaudit. Moi, j'applaudis.",
+    "it": "Le radici fanno tutto il lavoro e nessuno applaude. Io applaudo.",
+    "pt-BR": "As raízes fazem todo o trabalho e ninguém aplaude. Eu aplaudo.",
+    "ro": "Rădăcinile fac toată treaba și nimeni nu aplaudă. Eu aplaud."
+  },
+  "phrase.general-fluffle": {
+    "de": "Ich habe ein Wort erfunden: Flauschel. Es bedeutet dieses Gefühl.",
+    "en": "I made up a word: fluffle. It means this feeling.",
+    "es": "Inventé una palabra: esponjosura. Significa esta sensación.",
+    "fr": "J'ai inventé un mot : flouffle. C'est ce que je ressens, là.",
+    "it": "Ho inventato una parola: morbidoso. Vuol dire questa sensazione.",
+    "pt-BR": "Inventei uma palavra: fofuncho. Quer dizer este sentimento aqui.",
+    "ro": "Am inventat un cuvânt: pufoșeală. Înseamnă senzația asta."
+  },
+  "phrase.general-clouds": {
+    "de": "Ich habe über Wolken nachgedacht. Noch kein Ergebnis.",
+    "en": "I've been thinking about clouds. No conclusions yet.",
+    "es": "He estado pensando en las nubes. Todavía no he sacado conclusiones.",
+    "fr": "J'ai réfléchi aux nuages. Pas de conclusion pour l'instant.",
+    "it": "Ho pensato alle nuvole. Nessuna conclusione, per ora.",
+    "pt-BR": "Andei pensando em nuvens. Nenhuma conclusão ainda.",
+    "ro": "M-am tot gândit la nori. Încă nicio concluzie."
+  },
+  "phrase.general-still-yellow": {
+    "de": "Nichts zu berichten. Immer noch gelb.",
+    "en": "Nothing to report. Still yellow.",
+    "es": "Nada que contar. Todo sigue en amarillo.",
+    "fr": "Rien à signaler. Toujours jaune.",
+    "it": "Niente da segnalare. Giallo confermato.",
+    "pt-BR": "Nada a relatar. O amarelo continua firme.",
+    "ro": "Nimic de raportat. Galbenul meu e la locul lui."
+  },
+  "phrase.general-printer": {
+    "de": "Ich frage mich, wovon der Drucker träumt.",
+    "en": "I wonder what the printer dreams about.",
+    "es": "Me pregunto con qué sueña la impresora.",
+    "fr": "Je me demande de quoi rêve l'imprimante.",
+    "it": "Chissà cosa sogna la stampante.",
+    "pt-BR": "Com o que será que a impressora sonha?",
+    "ro": "Mă întreb ce visează imprimanta."
+  },
+  "phrase.general-tuesdays": {
+    "de": "Dienstage werden unterschätzt. Verrat's nicht dem Freitag.",
+    "en": "Tuesdays are underrated. Don't tell Friday.",
+    "es": "Nadie valora los martes. No se lo digas al viernes.",
+    "fr": "Le mardi, on le sous-estime. Ne le dis pas au vendredi.",
+    "it": "I martedì sono sottovalutati. Non dirlo al venerdì.",
+    "pt-BR": "A terça é muito subestimada. Não conta para a sexta.",
+    "ro": "Marțea e subestimată. Nu-i spune vinerii."
+  },
+  "phrase.general-good-day": {
+    "de": "Ich habe beschlossen, dass heute ein guter Tag ist. Ohne Grund.",
+    "en": "I've decided today is a good day. No reason.",
+    "es": "He decidido que hoy es un buen día. Porque sí.",
+    "fr": "J'ai décidé qu'aujourd'hui serait une bonne journée. Comme ça.",
+    "it": "Ho deciso che oggi è una bella giornata. Senza motivo.",
+    "pt-BR": "Decidi que hoje é um bom dia. Sem motivo.",
+    "ro": "Am hotărât că azi e o zi bună. Fără motiv."
+  },
+  "phrase.night-stars": {
+    "de": "Sterne sind nur Sonnenlicht, das lange aufgeblieben ist.",
+    "en": "Stars are just sunlight that stayed up late.",
+    "es": "Las estrellas son luz del sol que se quedó despierta hasta tarde.",
+    "fr": "Les étoiles, c'est du soleil qui a veillé tard.",
+    "it": "Le stelle sono luce del sole che ha fatto tardi.",
+    "pt-BR": "As estrelas são só luz do sol que ficou acordada até tarde.",
+    "ro": "Stelele sunt lumină de soare care a stat trează până târziu."
+  },
+  "phrase.morning-coffee": {
+    "de": "Kaffee riecht nach Sonnenaufgang, hat man mir gesagt.",
+    "en": "Coffee smells like a sunrise, I'm told.",
+    "es": "Dicen que el café huele a amanecer.",
+    "fr": "Le café sent le lever du soleil, paraît-il.",
+    "it": "Il caffè profuma di alba, a quanto dicono.",
+    "pt-BR": "Dizem que o café tem cheiro de nascer do sol.",
+    "ro": "Cafeaua miroase a răsărit, așa am auzit."
+  },
+  "phrase.afternoon-peak": {
+    "de": "Ich bin gerade maximal gelb.",
+    "en": "I'm at peak yellow right now.",
+    "es": "Ahora mismo, mi amarillo está en su punto.",
+    "fr": "Là, je suis au top de mon jaune.",
+    "it": "Sono al massimo del giallo, adesso.",
+    "pt-BR": "Estou no auge do amarelo agora.",
+    "ro": "Acum am galbenul la maximum."
+  },
+  "phrase.back-chair": {
+    "de": "Oh, du bist wieder da! Ich hab deinen Stuhl warm gehalten. In Gedanken.",
+    "en": "Oh, you're back! I kept your chair warm. Mentally.",
+    "es": "¡Volviste! Te guardé la silla calentita. Mentalmente.",
+    "fr": "Oh, te revoilà ! J'ai gardé ta chaise au chaud. Dans ma tête.",
+    "it": "Oh, eccoti! Ti ho tenuto calda la sedia. Col pensiero.",
+    "pt-BR": "Ah, você voltou! Deixei sua cadeira quentinha. Mentalmente.",
+    "ro": "Ai revenit! Ți-am ținut scaunul cald. Cu gândul."
+  },
+  "phrase.battery-light": {
+    "de": "Dein Akku wird schwach. Meiner nicht, ich tanke Licht.",
+    "en": "Your battery's getting low. Mine's fine, I run on light.",
+    "es": "Se te acaba la batería. A mí no, yo funciono con luz.",
+    "fr": "Ta batterie baisse. Moi ça va, je fonctionne à la lumière.",
+    "it": "La tua batteria sta calando. La mia va benissimo, vado a luce.",
+    "pt-BR": "Sua bateria está acabando. A minha vai bem: eu funciono à luz do sol.",
+    "ro": "Bateria ta e pe terminate. A mea e bine, eu merg pe lumină."
+  },
+  "phrase.dark-glow": {
+    "de": "Dunkelmodus! Ich leuchte ein bisschen für dich.",
+    "en": "Dark mode! I'll glow a bit for you.",
+    "es": "¡Modo oscuro! Brillaré un poquito para ti.",
+    "fr": "Mode sombre ! Je vais briller un peu pour toi.",
+    "it": "Modalità scura! Brillo un pochino per te.",
+    "pt-BR": "Modo escuro! Vou brilhar um pouquinho para você.",
+    "ro": "Mod întunecat! Strălucesc puțin pentru tine."
+  },
+  "phrase.shh-good": {
+    "de": "Da bin ich wieder. Ich war ganz brav.",
+    "en": "Hello again. I was being very good.",
+    "es": "Hola otra vez. Me porté muy bien.",
+    "fr": "Rebonjour. J'ai été très sage.",
+    "it": "Rieccomi! Non ho fiatato. Neanche un po'.",
+    "pt-BR": "Olá de novo. Eu estava me comportando muito bem.",
+    "ro": "Salut din nou. Am fost foarte cuminte."
+  },
+  "phrase.call-still": {
+    "de": "Gespräch vorbei? Ich hab mich keinen Millimeter bewegt.",
+    "en": "Call's over? I kept very still.",
+    "es": "¿Ya acabó la llamada? No me moví ni un pétalo.",
+    "fr": "Fini, l'appel ? Je n'ai pas bougé d'un pétale.",
+    "it": "Chiamata finita? Non ho mosso un petalo.",
+    "pt-BR": "Acabou a chamada? Nem me mexi.",
+    "ro": "S-a terminat apelul? N-am mișcat nicio petală."
+  },
+  "phrase.general-hi": {
+    "de": "Ich bin da. Wollte nur Hallo sagen.",
+    "en": "I'm here. Just saying hi.",
+    "es": "Aquí estoy. Solo vengo a saludar.",
+    "fr": "Je suis là. Juste pour te dire bonjour.",
+    "it": "Sono qui. Volevo solo salutare.",
+    "pt-BR": "Estou aqui. Só vim dizer oi.",
+    "ro": "Sunt aici. Voiam doar să-ți zic bună."
+  },
+  "Male": {
+    "de": "Männlich",
+    "es": "Masculina",
+    "fr": "Masculine",
+    "it": "Maschile",
+    "pt-BR": "Masculina",
+    "ro": "Masculină"
+  },
+  "Female": {
+    "de": "Weiblich",
+    "es": "Femenina",
+    "fr": "Féminine",
+    "it": "Femminile",
+    "pt-BR": "Feminina",
+    "ro": "Feminină"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "locale": {
+    "lang": "en"
+  },
+  "meta": {
+    "title": "sunnysays: a little sunflower that lives in your menu bar",
+    "description": "Sunny is a sunflower in a pot that lives in your Mac's menu bar and says something about once an hour. Quiet during calls. No network. Free.",
+    "url": "https://sunnysays.app/",
+    "ogTitle": "sunnysays: a little sunflower that talks",
+    "ogDescription": "Sunny lives in your menu bar, says something now and then, and keeps quiet during calls. Free for Mac.",
+    "ogImageAlt": "Sunny, a smiling sunflower in a terracotta pot, next to a speech bubble."
+  },
+  "og": {
+    "title1": "A little sunflower",
+    "title2": "that says things.",
+    "subtitle": "Lives in your Mac's menu bar. Quiet during calls."
+  },
+  "a11y": {
+    "skipLink": "Skip to content",
+    "sunny": "Sunny, a sunflower in a pot. Press it to hear a line."
+  },
+  "nav": {
+    "ariaLabel": "Main",
+    "wordmark": "sunnysays",
+    "wordmarkAria": "sunnysays, back to top",
+    "try": "Try it",
+    "privacy": "Privacy",
+    "cta": "Get Sunny",
+    "languageLabel": "Language",
+    "themeLabel": "Appearance"
+  },
+  "store": {
+    "mac": "Download on the Mac App Store",
+    "soon": "Coming soon to the Mac App Store",
+    "note": "Free · macOS 14 Sonoma or later"
+  },
+  "hero": {
+    "title": "A little sunflower that says things.",
+    "lede": "It lives in your Mac's menu bar, says a line now and then, and knows when to hush. Give it a day below.",
+    "say": "Say something",
+    "shh": "Shh",
+    "wake": "Wake up",
+    "clickMe": "Click me!",
+    "voiceLabel": "Sunny's voice"
+  },
+  "desk": {
+    "ariaLabel": "A little Mac screen with Sunny's panel open from the menu bar",
+    "toggles": "Make its day",
+    "call": "Join a call",
+    "full": "Go full screen",
+    "away": "Walk away",
+    "battery": "Battery 8%",
+    "dark": "Dark mode",
+    "night": "It's 2 a.m.",
+    "callWindow": "Team call",
+    "presenting": "Presenting · full screen",
+    "locked": "Locked"
+  },
+  "promise": {
+    "title": "Polite, private, free.",
+    "network": "No network",
+    "body": "Every feature is free. Tips go through the App Store, unlock nothing, and just say thanks."
+  },
+  "get": {
+    "title": "Give Sunny a spot by your window.",
+    "lede": "It's small, it's polite, and it's happy to see you."
+  },
+  "footer": {
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "openSource": "This site is open source",
+    "fonts": "Set in Fredoka (SIL Open Font License)."
+  },
+  "notFound": {
+    "metaTitle": "Not found · sunnysays",
+    "title": "Nothing grows here.",
+    "body": "This page doesn't exist. Sunny looked everywhere. Well, everywhere it can see from the pot.",
+    "home": "Back to Sunny"
+  },
+  "runtime": {
+    "themeLabels": {
+      "system": "Appearance: follow the system",
+      "light": "Appearance: light",
+      "dark": "Appearance: dark"
+    },
+    "shushed": "(shh)",
+    "rules": {
+      "start": "Tap anything below. Sunny follows the same rules as on your Mac.",
+      "poke": "Press it any time. On your Mac it also speaks up on its own, about once an hour.",
+      "polite": "Not now: it's being polite.",
+      "shushedPoke": "Shushed. Press Wake up to hear it again.",
+      "shh": "Shh: for an hour, the rest of today, or until you say.",
+      "wake": "It wakes up with one line.",
+      "wakeQuiet": "Awake, but still keeping quiet.",
+      "callCut": "A call started, so it stopped mid-word.",
+      "call": "On a call it keeps quiet.",
+      "callOver": "Call's over: one quiet line, then back to normal.",
+      "callOverQuiet": "Call's over. It's still keeping quiet.",
+      "full": "Full screen: it waits until you're back.",
+      "fullOff": "Out of full screen. It never talked over your slides.",
+      "away": "Away or locked: it won't talk to an empty room.",
+      "back": "You're back. One line, then it lets you work.",
+      "backQuiet": "You're back, but it's still keeping quiet.",
+      "battery": "It notices the little things, like a low battery.",
+      "batteryQuiet": "It noticed the battery. It'll keep that to itself.",
+      "batteryOff": "Plugged in.",
+      "dark": "Dark mode: it notices that too.",
+      "darkQuiet": "Dark mode. Noted, quietly.",
+      "darkOff": "Back to light.",
+      "night": "Late at night it says so, gently. You pick its hours.",
+      "nightQuiet": "It's late, and it's quiet.",
+      "nightOff": "Morning again."
+    }
+  }
+}

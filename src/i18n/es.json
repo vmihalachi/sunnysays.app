@@ -1,0 +1,116 @@
+{
+  "locale": {
+    "lang": "es"
+  },
+  "meta": {
+    "title": "sunnysays: un girasol pequeño que vive en tu barra de menús",
+    "description": "Sunny es un girasol en una maceta que vive en la barra de menús de tu Mac y dice algo más o menos una vez por hora. En silencio durante las llamadas. Sin red. Gratis.",
+    "url": "https://sunnysays.app/es/",
+    "ogTitle": "sunnysays: un girasol pequeño que habla",
+    "ogDescription": "Sunny vive en tu barra de menús, dice algo de vez en cuando y se calla durante las llamadas. Gratis para Mac.",
+    "ogImageAlt": "Sunny, un girasol sonriente en una maceta de terracota, junto a un bocadillo de diálogo."
+  },
+  "og": {
+    "title1": "Un girasol pequeño",
+    "title2": "que dice cosas.",
+    "subtitle": "Vive en la barra de menús de tu Mac. En silencio durante las llamadas."
+  },
+  "a11y": {
+    "skipLink": "Saltar al contenido",
+    "sunny": "Sunny, un girasol en una maceta. Púlsalo para oír una frase."
+  },
+  "nav": {
+    "ariaLabel": "Principal",
+    "wordmark": "sunnysays",
+    "wordmarkAria": "sunnysays, volver arriba",
+    "try": "Pruébalo",
+    "privacy": "Privacidad",
+    "cta": "Consigue a Sunny",
+    "languageLabel": "Idioma",
+    "themeLabel": "Apariencia"
+  },
+  "store": {
+    "mac": "Descárgalo en la Mac App Store",
+    "soon": "Próximamente en la Mac App Store",
+    "note": "Gratis · macOS 14 Sonoma o posterior"
+  },
+  "hero": {
+    "title": "Un girasol pequeño que dice cosas.",
+    "lede": "Vive en la barra de menús de tu Mac, suelta alguna frase de vez en cuando y sabe cuándo callarse. Pasa un día con él aquí abajo.",
+    "say": "Decir algo",
+    "shh": "Shh",
+    "wake": "Despertar",
+    "clickMe": "¡Púlsame!",
+    "voiceLabel": "Voz de Sunny"
+  },
+  "get": {
+    "title": "Dale a Sunny un sitio junto a tu ventana.",
+    "lede": "Es pequeño, es educado y se alegra de verte."
+  },
+  "footer": {
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "contact": "Contacto",
+    "openSource": "Este sitio es de código abierto",
+    "fonts": "Tipografía Fredoka (SIL Open Font License)."
+  },
+  "notFound": {
+    "metaTitle": "No encontrada · sunnysays",
+    "title": "Aquí no crece nada.",
+    "body": "Esta página no existe. Sunny ha mirado por todas partes. Bueno, por todo lo que alcanza a ver desde la maceta.",
+    "home": "Volver con Sunny"
+  },
+  "runtime": {
+    "themeLabels": {
+      "system": "Apariencia: la del sistema",
+      "light": "Apariencia: clara",
+      "dark": "Apariencia: oscura"
+    },
+    "shushed": "(shh)",
+    "rules": {
+      "start": "Toca lo que quieras aquí abajo. Sunny sigue las mismas reglas que en tu Mac.",
+      "poke": "Púlsalo cuando quieras. En tu Mac también habla por su cuenta, más o menos una vez por hora.",
+      "polite": "Ahora no: por educación.",
+      "shushedPoke": "Está en silencio. Pulsa Despertar para volver a oírlo.",
+      "shh": "Shh: una hora, el resto del día o hasta que tú digas.",
+      "wake": "Se despierta y suelta una frase.",
+      "wakeQuiet": "Ya está despierto, pero sigue sin decir nada.",
+      "callCut": "Empezó una llamada: se calló a media palabra.",
+      "call": "En llamada, ni pío.",
+      "callOver": "Se acabó la llamada: una frase suave y a lo de siempre.",
+      "callOverQuiet": "Se acabó la llamada, pero sigue callado.",
+      "full": "Pantalla completa: espera a que vuelvas.",
+      "fullOff": "Sales de pantalla completa. No interrumpió ni una diapositiva.",
+      "away": "Escritorio vacío o pantalla bloqueada: no le habla a la pared.",
+      "back": "Ya estás de vuelta. Una frase y te deja trabajar.",
+      "backQuiet": "Ya estás de vuelta, pero sigue callado.",
+      "battery": "Se fija en los detalles, como que te queda poca batería.",
+      "batteryQuiet": "Vio lo de la batería, pero se lo calla.",
+      "batteryOff": "Ya está enchufado.",
+      "dark": "Modo oscuro: eso también lo nota.",
+      "darkQuiet": "Modo oscuro. Lo nota, sin decir nada.",
+      "darkOff": "De vuelta al modo claro.",
+      "night": "Si se hace muy tarde, te lo dice con cariño. Tú eliges su horario.",
+      "nightQuiet": "Es tarde y se queda calladito.",
+      "nightOff": "Ya es de día."
+    }
+  },
+  "desk": {
+    "ariaLabel": "Una pantallita de Mac con el panel de Sunny abierto en la barra de menús",
+    "toggles": "¿Y si…?",
+    "call": "Entras en una llamada",
+    "full": "Pones pantalla completa",
+    "away": "Te vas un rato",
+    "battery": "La batería baja al 8 %",
+    "dark": "Pasas a modo oscuro",
+    "night": "Son las 2 de la madrugada",
+    "callWindow": "Reunión de equipo",
+    "presenting": "Presentación · pantalla completa",
+    "locked": "Pantalla bloqueada"
+  },
+  "promise": {
+    "title": "Educado, privado y gratis.",
+    "network": "Sin internet",
+    "body": "Todo es gratis. Las propinas van por la App Store, no desbloquean nada: son solo un gracias."
+  }
+}

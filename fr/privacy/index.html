@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FFF8E7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1F1A14" media="(prefers-color-scheme: dark)" />
+    <title>Politique de confidentialité · sunnysays</title>
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        const theme = localStorage.getItem("theme");
+        if (theme === "light" || theme === "dark") document.documentElement.dataset.theme = theme;
+      } catch {}
+    </script>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main class="legal-page">
+      <header>
+        <a class="legal-back" href="/fr/">← sunnysays</a>
+        <h1>Politique de confidentialité</h1>
+        <p>Dernière mise à jour : 10 octobre 2026</p>
+      </header>
+      <p>
+        sunnysays est un compagnon de bureau pour Mac créé par Vlad Mihalachi. Cette politique
+        couvre l’app et ce site web. En bref : l’app ne collecte rien.
+      </p>
+      <h2>L’app</h2>
+      <ul>
+        <li>
+          Elle n’accède jamais à votre caméra ni à votre micro. Pour rester silencieuse pendant les
+          appels, elle vérifie seulement si une autre app les utilise.
+        </li>
+        <li>
+          Elle ne fait aucune requête réseau de son côté. Il n’y a ni compte, ni statistiques, ni
+          publicité, ni suivi, ni SDK tiers.
+        </li>
+        <li>
+          Elle ne conserve que vos réglages, sur votre ordinateur. Elle ne garde pas ce que Sunny a
+          dit, ni quand, ni ce que vous avez fait.
+        </li>
+        <li>
+          Si vous activez le canal des notifications, macOS vous demande une seule fois
+          l’autorisation d’en afficher. Elles s’affichent sur votre Mac et ne vont nulle part
+          ailleurs.
+        </li>
+        <li>
+          Les pourboires sont traités par Apple via l’App Store. Nous ne recevons aucune donnée de
+          paiement ni rien qui permette de vous identifier.
+        </li>
+      </ul>
+      <h2>Ce site web</h2>
+      <p>
+        Ce site ne dépose aucun cookie et ne charge aucun traceur, outil de statistiques ni script
+        tiers. Il mémorise votre choix du mode clair ou sombre, et la voix que vous avez choisie
+        pour Sunny, dans le stockage local de votre navigateur, qui ne quitte jamais votre appareil.
+        Notre hébergeur, Cloudflare, peut conserver brièvement des journaux de serveur standard
+        (comme les adresses IP) pour faire fonctionner et protéger le service. Nous ne les utilisons
+        pas pour identifier qui que ce soit.
+      </p>
+      <h2>Enfants</h2>
+      <p>L’app ne collecte rien auprès de personne, enfants compris.</p>
+      <h2>Modifications</h2>
+      <p>Si cette politique change, la nouvelle version sera publiée ici avec une nouvelle date.</p>
+      <h2>Contact</h2>
+      <p>
+        Vous pouvez envoyer vos questions sur la confidentialité à
+        <a href="mailto:hello@sunnysays.app">hello@sunnysays.app</a>.
+      </p>
+    </main>
+  </body>
+</html>

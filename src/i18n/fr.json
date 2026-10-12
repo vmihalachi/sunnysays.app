@@ -1,0 +1,116 @@
+{
+  "locale": {
+    "lang": "fr"
+  },
+  "meta": {
+    "title": "sunnysays : un petit tournesol qui vit dans votre barre des menus",
+    "description": "Sunny est un tournesol en pot qui vit dans la barre des menus de votre Mac et dit quelque chose environ une fois par heure. Silencieux pendant les appels. Aucun réseau. Gratuit.",
+    "url": "https://sunnysays.app/fr/",
+    "ogTitle": "sunnysays : un petit tournesol qui parle",
+    "ogDescription": "Sunny vit dans votre barre des menus, dit un mot de temps en temps et se tait pendant les appels. Gratuit sur Mac.",
+    "ogImageAlt": "Sunny, un tournesol souriant dans un pot en terre cuite, à côté d'une bulle de dialogue."
+  },
+  "og": {
+    "title1": "Un petit tournesol",
+    "title2": "qui a son mot à dire.",
+    "subtitle": "Vit dans la barre des menus de votre Mac. Silencieux pendant les appels."
+  },
+  "a11y": {
+    "skipLink": "Aller au contenu",
+    "sunny": "Sunny, un tournesol en pot. Appuyez dessus pour entendre une phrase."
+  },
+  "nav": {
+    "ariaLabel": "Principal",
+    "wordmark": "sunnysays",
+    "wordmarkAria": "sunnysays, retour en haut",
+    "try": "Essayer",
+    "privacy": "Confidentialité",
+    "cta": "Adopter Sunny",
+    "languageLabel": "Langue",
+    "themeLabel": "Apparence"
+  },
+  "store": {
+    "mac": "Télécharger sur le Mac App Store",
+    "soon": "Bientôt sur le Mac App Store",
+    "note": "Gratuit · macOS 14 Sonoma ou version ultérieure"
+  },
+  "hero": {
+    "title": "Un petit tournesol qui a son mot à dire.",
+    "lede": "Il vit dans la barre des menus de ton Mac, glisse une phrase de temps en temps et sait quand se taire. Fais-lui passer une journée, juste en dessous.",
+    "say": "Dis quelque chose",
+    "shh": "Chut",
+    "wake": "Réveille-toi",
+    "clickMe": "Cliquez-moi !",
+    "voiceLabel": "Voix de Sunny"
+  },
+  "get": {
+    "title": "Offrez à Sunny une place près de votre fenêtre.",
+    "lede": "Il est petit, poli, et content de vous voir."
+  },
+  "footer": {
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "contact": "Contact",
+    "openSource": "Ce site est open source",
+    "fonts": "Composé en Fredoka (licence SIL Open Font)."
+  },
+  "notFound": {
+    "metaTitle": "Introuvable · sunnysays",
+    "title": "Rien ne pousse ici.",
+    "body": "Cette page n'existe pas. Sunny a cherché partout. Enfin, partout où il peut voir depuis son pot.",
+    "home": "Retour à Sunny"
+  },
+  "runtime": {
+    "themeLabels": {
+      "system": "Apparence : suivre le système",
+      "light": "Apparence : clair",
+      "dark": "Apparence : sombre"
+    },
+    "shushed": "(chut)",
+    "rules": {
+      "start": "Appuie où tu veux ci-dessous. Sunny suit les mêmes règles que sur ton Mac.",
+      "poke": "Appuie quand tu veux. Sur ton Mac, il parle aussi tout seul, environ une fois par heure.",
+      "polite": "Pas maintenant : il sait se tenir.",
+      "shushedPoke": "Il fait silence. Appuie sur Réveille-toi pour l'entendre de nouveau.",
+      "shh": "Chut : pour une heure, le reste de la journée ou jusqu'à nouvel ordre.",
+      "wake": "Il se réveille et lâche une petite phrase.",
+      "wakeQuiet": "Le voilà réveillé, mais il reste discret.",
+      "callCut": "L'appel a commencé : il s'est tu en plein mot.",
+      "call": "En appel, il ne dit pas un mot.",
+      "callOver": "Fin de l'appel : une petite phrase tout bas, puis tout redevient normal.",
+      "callOverQuiet": "Fin de l'appel. Il reste discret.",
+      "full": "Plein écran : il patiente jusqu'à ce que tu en sortes.",
+      "fullOff": "Fin du plein écran. Il n'a jamais parlé par-dessus tes diapos.",
+      "away": "Bureau vide ou écran verrouillé : il ne parle pas dans le vide.",
+      "back": "Te revoilà. Une phrase, et il te laisse travailler.",
+      "backQuiet": "Te revoilà, mais il reste discret.",
+      "battery": "Il remarque les petits détails, comme la batterie qui faiblit.",
+      "batteryQuiet": "Il a vu la batterie. Il garde ça pour lui.",
+      "batteryOff": "C'est rebranché.",
+      "dark": "Mode sombre : ça non plus, ça ne lui échappe pas.",
+      "darkQuiet": "Mode sombre. Noté, sans un mot.",
+      "darkOff": "Retour au mode clair.",
+      "night": "Tard le soir, il te le glisse en douceur. Ses horaires, c'est toi qui les choisis.",
+      "nightQuiet": "Il est tard, et il se tait.",
+      "nightOff": "Et revoilà le matin."
+    }
+  },
+  "desk": {
+    "ariaLabel": "Un petit écran de Mac, avec le panneau de Sunny ouvert depuis la barre des menus",
+    "toggles": "Et si…",
+    "call": "Tu prends un appel",
+    "full": "Tu passes en plein écran",
+    "away": "Tu t'éclipses",
+    "battery": "La batterie tombe à 8 %",
+    "dark": "Tu bascules en mode sombre",
+    "night": "Il est 2 h du matin",
+    "callWindow": "Réunion d'équipe",
+    "presenting": "Présentation · plein écran",
+    "locked": "Verrouillé"
+  },
+  "promise": {
+    "title": "Poli, privé, gratuit.",
+    "network": "Pas de réseau",
+    "body": "Tout est gratuit. Les pourboires passent par l'App Store et ne débloquent rien : c'est juste un merci."
+  }
+}
