@@ -3,17 +3,17 @@
     "lang": "es"
   },
   "meta": {
-    "title": "sunnysays: un girasol pequeño que vive en tu barra de menús",
-    "description": "Sunny es un girasol en una maceta que vive en la barra de menús de tu Mac y dice algo más o menos una vez por hora. En silencio durante las llamadas. Sin red. Gratis.",
+    "title": "sunnysays: un girasol pequeño que vive en tu barra de menús o en la bandeja del sistema",
+    "description": "Sunny es un girasol en una maceta que vive en tu barra de menús o en la bandeja del sistema y dice algo más o menos una vez por hora. En silencio durante las llamadas. Sin red. Gratis.",
     "url": "https://sunnysays.app/es/",
     "ogTitle": "sunnysays: un girasol pequeño que habla",
-    "ogDescription": "Sunny vive en tu barra de menús, dice algo de vez en cuando y se calla durante las llamadas. Gratis para Mac.",
+    "ogDescription": "Sunny vive en tu barra de menús o en la bandeja del sistema, dice algo de vez en cuando y se calla durante las llamadas. Gratis para Mac y Windows.",
     "ogImageAlt": "Sunny, un girasol sonriente en una maceta de terracota, junto a un bocadillo de diálogo."
   },
   "og": {
     "title1": "Un girasol pequeño",
     "title2": "que dice cosas.",
-    "subtitle": "Vive en la barra de menús de tu Mac. En silencio durante las llamadas."
+    "subtitle": "Vive en tu barra de menús o en la bandeja del sistema. En silencio durante las llamadas."
   },
   "a11y": {
     "skipLink": "Saltar al contenido",
@@ -30,13 +30,15 @@
     "themeLabel": "Apariencia"
   },
   "store": {
-    "mac": "Descárgalo en la Mac App Store",
+    "mac": "Mac App Store",
     "soon": "Próximamente en la Mac App Store",
-    "note": "Gratis · macOS 14 Sonoma o posterior"
+    "windowsSoon": "Próximamente en Microsoft Store",
+    "windows": "Microsoft Store",
+    "note": "Gratis"
   },
   "hero": {
     "title": "Un girasol pequeño que dice cosas.",
-    "lede": "Vive en la barra de menús de tu Mac, suelta alguna frase de vez en cuando y sabe cuándo callarse. Pasa un día con él aquí abajo.",
+    "lede": "Vive en tu barra de menús o en la bandeja del sistema, suelta alguna frase de vez en cuando y sabe cuándo callarse. Pasa un día con él aquí abajo.",
     "say": "Decir algo",
     "shh": "Shh",
     "wake": "Despertar",
@@ -68,8 +70,8 @@
     },
     "shushed": "(shh)",
     "rules": {
-      "start": "Toca lo que quieras aquí abajo. Sunny sigue las mismas reglas que en tu Mac.",
-      "poke": "Púlsalo cuando quieras. En tu Mac también habla por su cuenta, más o menos una vez por hora.",
+      "start": "Toca lo que quieras aquí abajo. Sunny sigue las mismas reglas que en tu ordenador.",
+      "poke": "Púlsalo cuando quieras. En tu ordenador también habla por su cuenta, más o menos una vez por hora.",
       "polite": "Ahora no: por educación.",
       "shushedPoke": "Está en silencio. Pulsa Despertar para volver a oírlo.",
       "shh": "Shh: una hora, el resto del día o hasta que tú digas.",

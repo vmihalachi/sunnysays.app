@@ -3,17 +3,17 @@
     "lang": "pt-BR"
   },
   "meta": {
-    "title": "sunnysays: um girassolzinho que mora na sua barra de menus",
-    "description": "Sunny é um girassol de vaso que mora na barra de menus do seu Mac e diz algo algmais ou menos uma vez por hora. Fica quieto durante chamadas. Sem rede. Grátis.",
+    "title": "sunnysays: um girassolzinho que mora na sua barra de menus ou na bandeja do sistema",
+    "description": "Sunny é um girassol de vaso que mora na sua barra de menus ou na bandeja do sistema e diz algo mais ou menos uma vez por hora. Fica quieto durante chamadas. Sem rede. Grátis.",
     "url": "https://sunnysays.app/pt-br/",
     "ogTitle": "sunnysays: um girassolzinho que fala",
-    "ogDescription": "Sunny mora na sua barra de menus, diz algo de vez em quando e fica quieto durante chamadas. Grátis para Mac.",
+    "ogDescription": "Sunny mora na sua barra de menus ou na bandeja do sistema, diz algo de vez em quando e fica quieto durante chamadas. Grátis para Mac e Windows.",
     "ogImageAlt": "Sunny, um girassol sorridente num vaso de terracota, ao lado de um balão de fala."
   },
   "og": {
     "title1": "Um girassolzinho",
     "title2": "que diz coisas.",
-    "subtitle": "Mora na barra de menus do seu Mac. Quieto durante chamadas."
+    "subtitle": "Mora na barra de menus ou na bandeja do sistema. Quieto durante chamadas."
   },
   "a11y": {
     "skipLink": "Pular para o conteúdo",
@@ -30,13 +30,15 @@
     "themeLabel": "Aparência"
   },
   "store": {
-    "mac": "Baixe na Mac App Store",
+    "mac": "Mac App Store",
     "soon": "Em breve na Mac App Store",
-    "note": "Grátis · macOS 14 Sonoma ou mais recente"
+    "windowsSoon": "Em breve na Microsoft Store",
+    "windows": "Microsoft Store",
+    "note": "Grátis"
   },
   "hero": {
     "title": "Um girassolzinho que diz coisas.",
-    "lede": "Mora na barra de menus do seu Mac, solta uma frase de vez em quando e sabe a hora de se calar. Invente um dia pra ele aqui embaixo.",
+    "lede": "Mora na sua barra de menus ou na bandeja do sistema, solta uma frase de vez em quando e sabe a hora de se calar. Invente um dia pra ele aqui embaixo.",
     "say": "Dizer algo",
     "shh": "Xiu",
     "wake": "Acordar",
@@ -68,8 +70,8 @@
     },
     "shushed": "(xiu)",
     "rules": {
-      "start": "Toque em qualquer botão aqui embaixo. O Sunny segue as mesmas regras que no seu Mac.",
-      "poke": "Aperte quando quiser. No Mac, ele também puxa assunto sozinho, mais ou menos uma vez por hora.",
+      "start": "Toque em qualquer botão aqui embaixo. O Sunny segue as mesmas regras que no seu computador.",
+      "poke": "Aperte quando quiser. No computador, ele também puxa assunto sozinho, mais ou menos uma vez por hora.",
       "polite": "Agora não, por educação.",
       "shushedPoke": "Em silêncio. Toque em Acordar para ouvir de novo.",
       "shh": "Xiu: por uma hora, até o fim do dia ou até você liberar.",

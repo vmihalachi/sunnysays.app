@@ -3,17 +3,17 @@
     "lang": "en"
   },
   "meta": {
-    "title": "sunnysays: a little sunflower that lives in your menu bar",
-    "description": "Sunny is a sunflower in a pot that lives in your Mac's menu bar and says something about once an hour. Quiet during calls. No network. Free.",
+    "title": "sunnysays: a little sunflower that lives in your menu bar or system tray",
+    "description": "Sunny is a sunflower in a pot that lives in your menu bar or system tray and says something about once an hour. Quiet during calls. No network. Free.",
     "url": "https://sunnysays.app/",
     "ogTitle": "sunnysays: a little sunflower that talks",
-    "ogDescription": "Sunny lives in your menu bar, says something now and then, and keeps quiet during calls. Free for Mac.",
+    "ogDescription": "Sunny lives in your menu bar or system tray, says something now and then, and keeps quiet during calls. Free for Mac and Windows.",
     "ogImageAlt": "Sunny, a smiling sunflower in a terracotta pot, next to a speech bubble."
   },
   "og": {
     "title1": "A little sunflower",
     "title2": "that says things.",
-    "subtitle": "Lives in your Mac's menu bar. Quiet during calls."
+    "subtitle": "Lives in your menu bar or system tray. Quiet during calls."
   },
   "a11y": {
     "skipLink": "Skip to content",
@@ -30,13 +30,15 @@
     "themeLabel": "Appearance"
   },
   "store": {
-    "mac": "Download on the Mac App Store",
+    "mac": "Mac App Store",
     "soon": "Coming soon to the Mac App Store",
-    "note": "Free · macOS 14 Sonoma or later"
+    "windows": "Microsoft Store",
+    "windowsSoon": "Coming soon to the Microsoft Store",
+    "note": "Free"
   },
   "hero": {
     "title": "A little sunflower that says things.",
-    "lede": "It lives in your Mac's menu bar, says a line now and then, and knows when to hush. Give it a day below.",
+    "lede": "It lives in your menu bar or system tray, says a line now and then, and knows when to hush. Give it a day below.",
     "say": "Say something",
     "shh": "Shh",
     "wake": "Wake up",
@@ -86,8 +88,8 @@
     },
     "shushed": "(shh)",
     "rules": {
-      "start": "Tap anything below. Sunny follows the same rules as on your Mac.",
-      "poke": "Press it any time. On your Mac it also speaks up on its own, about once an hour.",
+      "start": "Tap anything below. Sunny follows the same rules as on your computer.",
+      "poke": "Press it any time. On your computer it also speaks up on its own, about once an hour.",
       "polite": "Not now: it's being polite.",
       "shushedPoke": "Shushed. Press Wake up to hear it again.",
       "shh": "Shh: for an hour, the rest of today, or until you say.",

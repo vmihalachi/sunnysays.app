@@ -3,17 +3,17 @@
     "lang": "ro"
   },
   "meta": {
-    "title": "sunnysays: o floare-a-soarelui mică ce locuiește în bara de meniu",
-    "description": "Sunny e o floare-a-soarelui într-un ghiveci, care locuiește în bara de meniu a Mac-ului tău și spune câte ceva cam o dată pe oră. Tace în timpul apelurilor. Fără rețea. Gratuită.",
+    "title": "sunnysays: o floare-a-soarelui mică ce locuiește în bara de meniu sau în zona de notificare",
+    "description": "Sunny e o floare-a-soarelui într-un ghiveci, care locuiește în bara de meniu sau în zona de notificare și spune câte ceva cam o dată pe oră. Tace în timpul apelurilor. Fără rețea. Gratuită.",
     "url": "https://sunnysays.app/ro/",
     "ogTitle": "sunnysays: o floare-a-soarelui mică ce vorbește",
-    "ogDescription": "Sunny locuiește în bara ta de meniu, spune câte ceva din când în când și tace în timpul apelurilor. Gratuită pentru Mac.",
+    "ogDescription": "Sunny locuiește în bara de meniu sau în zona de notificare, spune câte ceva din când în când și tace în timpul apelurilor. Gratuită pentru Mac și Windows.",
     "ogImageAlt": "Sunny, o floare-a-soarelui zâmbitoare într-un ghiveci de teracotă, lângă un balon de vorbire."
   },
   "og": {
     "title1": "O floare-a-soarelui mică",
     "title2": "care spune lucruri.",
-    "subtitle": "Locuiește în bara de meniu a Mac-ului. Tace în timpul apelurilor."
+    "subtitle": "Locuiește în bara de meniu sau în zona de notificare. Tace în timpul apelurilor."
   },
   "a11y": {
     "skipLink": "Sari la conținut",
@@ -30,13 +30,15 @@
     "themeLabel": "Aspect"
   },
   "store": {
-    "mac": "Descarcă din Mac App Store",
+    "mac": "Mac App Store",
     "soon": "În curând în Mac App Store",
-    "note": "Gratuit · macOS 14 Sonoma sau mai nou"
+    "windowsSoon": "În curând în Microsoft Store",
+    "windows": "Microsoft Store",
+    "note": "Gratuit"
   },
   "hero": {
     "title": "O floare-a-soarelui mică ce spune lucruri.",
-    "lede": "Stă în bara de meniu a Mac-ului, mai zice câte ceva din când în când și știe când să tacă. Pune-l la încercare mai jos.",
+    "lede": "Stă în bara de meniu sau în zona de notificare, mai zice câte ceva din când în când și știe când să tacă. Pune-l la încercare mai jos.",
     "say": "Spune ceva",
     "shh": "Șșt",
     "wake": "Trezește-te",
@@ -68,8 +70,8 @@
     },
     "shushed": "(șșt)",
     "rules": {
-      "start": "Apasă pe ce vrei mai jos. Sunny respectă aceleași reguli ca pe Mac.",
-      "poke": "Apasă oricând. Pe Mac vorbește și singur, cam o dată pe oră.",
+      "start": "Apasă pe ce vrei mai jos. Sunny respectă aceleași reguli ca pe computer.",
+      "poke": "Apasă oricând. Pe computer vorbește și singur, cam o dată pe oră.",
       "polite": "Nu acum: n-ar fi frumos.",
       "shushedPoke": "Tace mâlc. Apasă Trezește-te ca să-l auzi din nou.",
       "shh": "Șșt: pentru o oră, pentru azi sau până zici tu.",

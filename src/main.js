@@ -1,4 +1,4 @@
-// The landing page's only script: the theme toggle and the hero's Sunny. It fetches nothing but Sunny's recorded
+// The landing page's only script: the theme toggle, the store buttons' order and the hero's Sunny. It fetches nothing but Sunny's recorded
 // clips from this site, and stores nothing beyond the chosen theme and voice. Timings follow
 // design/characters/sunflower/sunflower.rig.json.
 
@@ -36,6 +36,20 @@ if (themeToggle) {
   themeToggle.addEventListener("click", () => {
     const next = themeModes[(themeModes.indexOf(themeToggle.dataset.mode) + 1) % themeModes.length];
     applyTheme(next);
+  });
+}
+
+// STORES: the visitor's own store first, the other one outlined.
+const platform = navigator.userAgentData?.platform ?? navigator.platform ?? "";
+const ownStore = /^win/i.test(platform) ? "windows" : /^mac/i.test(platform) ? "mac" : null;
+if (ownStore) {
+  document.querySelectorAll(".store-buttons").forEach((group) => {
+    const own = group.querySelector(`[data-store="${ownStore}"]`);
+    if (!own) return;
+    group.prepend(own);
+    group
+      .querySelectorAll(`[data-store]:not([data-store="${ownStore}"])`)
+      .forEach((other) => other.classList.add("is-alt"));
   });
 }
 

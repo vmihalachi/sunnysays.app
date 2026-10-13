@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { companionLanding, escapeAttr, escapeHtml, scriptJson } from "@deskling/landing";
+import { appleIcon, companionLanding, escapeAttr, escapeHtml, scriptJson } from "@deskling/landing";
 import { defineConfig } from "vite-plus";
 import { appData } from "./app-data";
 import { createVoices } from "./voice";
@@ -106,6 +106,32 @@ const siteUrl = "https://sunnysays.app";
  * App Store" instead of a link.
  */
 const appStoreUrl: string | null = null;
+/** The Microsoft Store listing (`https://apps.microsoft.com/detail/<product ID>` from Partner Center), the same way. */
+const microsoftStoreUrl: string | null = null;
+
+const windowsIcon =
+  '<svg class="store-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><rect x="1" y="1" width="10.5" height="10.5"/><rect x="12.5" y="1" width="10.5" height="10.5"/><rect x="1" y="12.5" width="10.5" height="10.5"/><rect x="12.5" y="12.5" width="10.5" height="10.5"/></g></svg>';
+
+/** One store's button: a link once there's a listing, a dashed "coming soon" before. */
+function storeLink(
+  store: string,
+  url: string | null,
+  icon: string,
+  label: string,
+  soon: string,
+  big: boolean,
+) {
+  const size = big ? " button-big" : "";
+  return url
+    ? `<a class="button${size}" data-store="${store}" href="${escapeAttr(url)}">${icon}<span>${escapeHtml(label)}</span></a>`
+    : `<span class="button button-soon${size}" data-store="${store}">${icon}<span>${escapeHtml(soon)}</span></span>`;
+}
+
+/** Both stores' buttons; `main.js` puts the visitor's own first. */
+function storeButtons(locale: any, big: boolean) {
+  const { store } = locale;
+  return `<div class="store-buttons">${storeLink("mac", appStoreUrl, appleIcon, store.mac, store.soon, big)}${storeLink("windows", microsoftStoreUrl, windowsIcon, store.windows, store.windowsSoon, big)}</div>`;
+}
 
 /**
  * The page's plumbing (every language's home page from `index.html`, the legal pages' links, the sitemap, the
@@ -116,6 +142,7 @@ const landing = companionLanding({
   root,
   siteUrl,
   appStoreUrl,
+  storeButton: storeButtons,
   contactEmail: "hello@sunnysays.app",
   languages,
   defaultLanguageCode,
@@ -147,7 +174,7 @@ const landing = companionLanding({
     name: "sunnysays",
     description: locale.meta.description,
     applicationCategory: "EntertainmentApplication",
-    operatingSystem: "macOS",
+    operatingSystem: "macOS, Windows",
     inLanguage: language.code,
     url: `${siteUrl}${language.path}`,
     image: `${siteUrl}/og-${language.code}.png`,

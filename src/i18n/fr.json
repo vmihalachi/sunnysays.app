@@ -3,17 +3,17 @@
     "lang": "fr"
   },
   "meta": {
-    "title": "sunnysays : un petit tournesol qui vit dans votre barre des menus",
-    "description": "Sunny est un tournesol en pot qui vit dans la barre des menus de votre Mac et dit quelque chose environ une fois par heure. Silencieux pendant les appels. Aucun réseau. Gratuit.",
+    "title": "sunnysays : un petit tournesol qui vit dans votre barre des menus ou votre zone de notification",
+    "description": "Sunny est un tournesol en pot qui vit dans votre barre des menus ou votre zone de notification et dit quelque chose environ une fois par heure. Silencieux pendant les appels. Aucun réseau. Gratuit.",
     "url": "https://sunnysays.app/fr/",
     "ogTitle": "sunnysays : un petit tournesol qui parle",
-    "ogDescription": "Sunny vit dans votre barre des menus, dit un mot de temps en temps et se tait pendant les appels. Gratuit sur Mac.",
+    "ogDescription": "Sunny vit dans votre barre des menus ou votre zone de notification, dit un mot de temps en temps et se tait pendant les appels. Gratuit sur Mac et Windows.",
     "ogImageAlt": "Sunny, un tournesol souriant dans un pot en terre cuite, à côté d'une bulle de dialogue."
   },
   "og": {
     "title1": "Un petit tournesol",
     "title2": "qui a son mot à dire.",
-    "subtitle": "Vit dans la barre des menus de votre Mac. Silencieux pendant les appels."
+    "subtitle": "Vit dans la barre des menus ou la zone de notification. Silencieux pendant les appels."
   },
   "a11y": {
     "skipLink": "Aller au contenu",
@@ -30,13 +30,15 @@
     "themeLabel": "Apparence"
   },
   "store": {
-    "mac": "Télécharger sur le Mac App Store",
+    "mac": "Mac App Store",
     "soon": "Bientôt sur le Mac App Store",
-    "note": "Gratuit · macOS 14 Sonoma ou version ultérieure"
+    "windowsSoon": "Bientôt sur le Microsoft Store",
+    "windows": "Microsoft Store",
+    "note": "Gratuit"
   },
   "hero": {
     "title": "Un petit tournesol qui a son mot à dire.",
-    "lede": "Il vit dans la barre des menus de ton Mac, glisse une phrase de temps en temps et sait quand se taire. Fais-lui passer une journée, juste en dessous.",
+    "lede": "Il vit dans ta barre des menus ou ta zone de notification, glisse une phrase de temps en temps et sait quand se taire. Fais-lui passer une journée, juste en dessous.",
     "say": "Dis quelque chose",
     "shh": "Chut",
     "wake": "Réveille-toi",
@@ -68,8 +70,8 @@
     },
     "shushed": "(chut)",
     "rules": {
-      "start": "Appuie où tu veux ci-dessous. Sunny suit les mêmes règles que sur ton Mac.",
-      "poke": "Appuie quand tu veux. Sur ton Mac, il parle aussi tout seul, environ une fois par heure.",
+      "start": "Appuie où tu veux ci-dessous. Sunny suit les mêmes règles que sur ton ordinateur.",
+      "poke": "Appuie quand tu veux. Sur ton ordinateur, il parle aussi tout seul, environ une fois par heure.",
       "polite": "Pas maintenant : il sait se tenir.",
       "shushedPoke": "Il fait silence. Appuie sur Réveille-toi pour l'entendre de nouveau.",
       "shh": "Chut : pour une heure, le reste de la journée ou jusqu'à nouvel ordre.",

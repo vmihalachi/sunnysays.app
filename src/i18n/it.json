@@ -3,17 +3,17 @@
     "lang": "it"
   },
   "meta": {
-    "title": "sunnysays: un piccolo girasole che vive nella barra dei menu",
-    "description": "Sunny è un girasole in vaso che vive nella barra dei menu del tuo Mac e dice qualcosa più o meno una volta all'ora. Zitto durante le chiamate. Niente rete. Gratis.",
+    "title": "sunnysays: un piccolo girasole che vive nella barra dei menu o nell'area di notifica",
+    "description": "Sunny è un girasole in vaso che vive nella barra dei menu o nell'area di notifica e dice qualcosa più o meno una volta all'ora. Zitto durante le chiamate. Niente rete. Gratis.",
     "url": "https://sunnysays.app/it/",
     "ogTitle": "sunnysays: un piccolo girasole che parla",
-    "ogDescription": "Sunny vive nella barra dei menu, dice qualcosa ogni tanto e sta in silenzio durante le chiamate. Gratis per Mac.",
+    "ogDescription": "Sunny vive nella barra dei menu o nell'area di notifica, dice qualcosa ogni tanto e sta in silenzio durante le chiamate. Gratis per Mac e Windows.",
     "ogImageAlt": "Sunny, un girasole sorridente in un vaso di terracotta, accanto a un fumetto."
   },
   "og": {
     "title1": "Un piccolo girasole",
     "title2": "che dice cose.",
-    "subtitle": "Vive nella barra dei menu del tuo Mac. In silenzio durante le chiamate."
+    "subtitle": "Vive nella barra dei menu o nell'area di notifica. In silenzio durante le chiamate."
   },
   "a11y": {
     "skipLink": "Vai al contenuto",
@@ -30,13 +30,15 @@
     "themeLabel": "Aspetto"
   },
   "store": {
-    "mac": "Scarica dal Mac App Store",
+    "mac": "Mac App Store",
     "soon": "Presto sul Mac App Store",
-    "note": "Gratis · macOS 14 Sonoma o successivo"
+    "windowsSoon": "Presto sul Microsoft Store",
+    "windows": "Microsoft Store",
+    "note": "Gratis"
   },
   "hero": {
     "title": "Un piccolo girasole che dice cose.",
-    "lede": "Vive nella barra dei menu del tuo Mac, ogni tanto dice la sua e sa quando è il momento di tacere. Provalo qui sotto.",
+    "lede": "Vive nella barra dei menu o nell'area di notifica, ogni tanto dice la sua e sa quando è il momento di tacere. Provalo qui sotto.",
     "say": "Di' qualcosa",
     "shh": "Shh",
     "wake": "Svegliati",
@@ -68,8 +70,8 @@
     },
     "shushed": "(shh)",
     "rules": {
-      "start": "Tocca un pulsante qui sotto: Sunny segue le stesse regole che sul tuo Mac.",
-      "poke": "Premilo quando vuoi. Sul Mac, poi, parla anche da solo, più o meno una volta all'ora.",
+      "start": "Tocca un pulsante qui sotto: Sunny segue le stesse regole che sul tuo computer.",
+      "poke": "Premilo quando vuoi. Sul computer, poi, parla anche da solo, più o meno una volta all'ora.",
       "polite": "Non ora: sa come comportarsi.",
       "shushedPoke": "Fa silenzio. Premi Svegliati per risentirlo.",
       "shh": "Shh: per un'ora, per il resto della giornata o finché vuoi tu.",

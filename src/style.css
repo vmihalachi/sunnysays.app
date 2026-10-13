@@ -366,6 +366,21 @@ a {
   height: 22px;
   flex: none;
 }
+.store-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+}
+.get .store-buttons {
+  justify-content: center;
+}
+.store-buttons .button.is-alt:not(.button-soon) {
+  background: transparent;
+  color: var(--ink);
+}
+.store-buttons .button-soon.is-alt {
+  background: transparent;
+}
 .store-note {
   color: var(--ink-soft);
   font-size: 0.9375rem;

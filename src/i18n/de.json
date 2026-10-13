@@ -3,17 +3,17 @@
     "lang": "de"
   },
   "meta": {
-    "title": "sunnysays: eine kleine Sonnenblume in deiner Menüleiste",
-    "description": "Sunny ist eine Sonnenblume im Topf, die in der Menüleiste deines Macs wohnt und ungefähr einmal pro Stunde etwas sagt. Leise während Anrufen. Kein Netzwerk. Kostenlos.",
+    "title": "sunnysays: eine kleine Sonnenblume in deiner Menüleiste oder im Infobereich",
+    "description": "Sunny ist eine Sonnenblume im Topf, die in deiner Menüleiste oder im Infobereich wohnt und ungefähr einmal pro Stunde etwas sagt. Leise während Anrufen. Kein Netzwerk. Kostenlos.",
     "url": "https://sunnysays.app/de/",
     "ogTitle": "sunnysays: eine kleine Sonnenblume, die redet",
-    "ogDescription": "Sunny wohnt in deiner Menüleiste, sagt hin und wieder etwas und ist bei Anrufen still. Kostenlos für den Mac.",
+    "ogDescription": "Sunny wohnt in deiner Menüleiste oder im Infobereich, sagt hin und wieder etwas und ist bei Anrufen still. Kostenlos für Mac und Windows.",
     "ogImageAlt": "Sunny, eine lächelnde Sonnenblume in einem Terrakottatopf, neben einer Sprechblase."
   },
   "og": {
     "title1": "Eine kleine Sonnenblume,",
     "title2": "die etwas zu sagen hat.",
-    "subtitle": "Wohnt in der Menüleiste deines Macs. Leise bei Anrufen."
+    "subtitle": "Wohnt in der Menüleiste oder im Infobereich. Leise bei Anrufen."
   },
   "a11y": {
     "skipLink": "Zum Inhalt springen",
@@ -30,13 +30,15 @@
     "themeLabel": "Erscheinungsbild"
   },
   "store": {
-    "mac": "Im Mac App Store laden",
+    "mac": "Mac App Store",
     "soon": "Bald im Mac App Store",
-    "note": "Kostenlos · ab macOS 14 Sonoma"
+    "windowsSoon": "Bald im Microsoft Store",
+    "windows": "Microsoft Store",
+    "note": "Kostenlos"
   },
   "hero": {
     "title": "Eine kleine Sonnenblume, die etwas zu sagen hat.",
-    "lede": "Sunny wohnt in der Menüleiste deines Macs, sagt ab und zu etwas und weiß, wann Stille gefragt ist. Spiel unten einen Tag mit Sunny durch.",
+    "lede": "Sunny wohnt in deiner Menüleiste oder im Infobereich, sagt ab und zu etwas und weiß, wann Stille gefragt ist. Spiel unten einen Tag mit Sunny durch.",
     "say": "Etwas sagen",
     "shh": "Psst",
     "wake": "Aufwecken",
@@ -68,8 +70,8 @@
     },
     "shushed": "(psst)",
     "rules": {
-      "start": "Tipp unten auf irgendwas. Sunny hält sich an dieselben Regeln wie auf deinem Mac.",
-      "poke": "Drück, so oft du willst. Auf deinem Mac meldet sich Sunny auch von selbst, ungefähr einmal pro Stunde.",
+      "start": "Tipp unten auf irgendwas. Sunny hält sich an dieselben Regeln wie auf deinem Computer.",
+      "poke": "Drück, so oft du willst. Auf deinem Computer meldet sich Sunny auch von selbst, ungefähr einmal pro Stunde.",
       "polite": "Gerade nicht: Sunny hält sich höflich zurück.",
       "shushedPoke": "Gerade auf Psst. Mit „Aufwecken“ meldet sich Sunny wieder.",
       "shh": "Psst: eine Stunde, den restlichen Tag oder bis auf Weiteres.",
