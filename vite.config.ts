@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { appleIcon, companionLanding, escapeAttr, escapeHtml, scriptJson } from "@deskling/landing";
+import { appleIcon, companionLanding, escapeAttr, escapeHtml, scriptJson } from "@laching/landing";
 import { defineConfig } from "vite-plus";
 import { appData } from "./app-data";
 import { createVoices } from "./voice";
@@ -135,7 +135,7 @@ function storeButtons(locale: any, big: boolean) {
 
 /**
  * The page's plumbing (every language's home page from `index.html`, the legal pages' links, the sitemap, the
- * `_headers` with its CSP, the social cards and icons) is Deskling's (`@deskling/landing`); what's here is
+ * `_headers` with its CSP, the social cards and icons) is Laching's (`@laching/landing`); what's here is
  * sunnysays' data: its languages and URLs, Sunny's lines and voices, and the card's bubble.
  */
 const landing = companionLanding({

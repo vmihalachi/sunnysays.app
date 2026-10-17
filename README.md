@@ -18,7 +18,7 @@ vp build    # dist/
 - `index.html` is a template: `{{key}}` placeholders are filled from `src/i18n/<language>.json`, and the build
   fails when a language is missing a key. The plumbing (the pages per language, the legal pages' links, the
   sitemap, the `_headers` with its CSP, the social cards and icons) is
-  [`@deskling/landing`](https://www.npmjs.com/package/@deskling/landing) from npm; `vite.config.ts` holds this
+  [`@laching/landing`](https://www.npmjs.com/package/@laching/landing) from npm; `vite.config.ts` holds this
   page's data: the languages and URLs, Sunny's lines and voices, the JSON-LD and the social card's bubble.
 - `app-data/` holds what the page takes from the app: Sunny's lines in every language (`lines.json`) and the
   recordings of the ones it says (`voice/`). In the app repository this repo is mounted at `landing/`, and a
