@@ -14,10 +14,10 @@
               "textHash": "bf0da808f8f2e342171b25cc8b026422e8902d30e776752554d1ea58f6d48198"
             },
             "poke-petals": {
-              "duration": 3.367,
-              "mouth": "2302220000000023032012000000322320111000000",
-              "renderHash": "916c14711441a2e9b37444ae5536eea3e7b26b3caf7f87b69be6ccc83fbe52c8",
-              "textHash": "736f36a9bcaba3b14df50e208d583cd738a01833d536690a35789dbde44b0a06"
+              "duration": 2.242,
+              "mouth": "23022200000000032132022100000",
+              "renderHash": "2ef18bc23d0632a92e9648371d738aff9b89753da9485191d58b36e6aa52e4ea",
+              "textHash": "890210863ac1797e1f493bd9c2854b3577e484e8a507dbf04a79d298b3ea3763"
             },
             "poke-pressed": {
               "duration": 3.18,
@@ -62,10 +62,10 @@
               "textHash": "6932f09371d6fdacfdbec7f6148a3870140650e3df71e277fc1948a100220b08"
             },
             "general-fluffle": {
-              "duration": 5.529,
-              "mouth": "2321111111111100000000001332111100000000000013121100001001010000000000",
-              "renderHash": "6362e7f148957a3e7d4a0549e85d0505eee030c883a9564fabbacf0c7c04f589",
-              "textHash": "dba414e087ba9f3e7e11fc3ce185ba3000d6458519cb43e8160f431c02b8389b"
+              "duration": 4.995,
+              "mouth": "231111101110110000000000010300110000000000023101121101111000000",
+              "renderHash": "8029abf785b983a6ec19c53a1d2b278e638ca0463812632b40111bd8f71b966f",
+              "textHash": "a98a967ac4ad75401780625e056ad8b7be08b06ba2ff5963f25da66d92c653aa"
             },
             "general-clouds": {
               "duration": 3.963,
@@ -98,10 +98,10 @@
               "textHash": "15c96235558834ca429e114b909d550d83983c607a6c6dc178892068b51b83b5"
             },
             "night-stars": {
-              "duration": 3.238,
-              "mouth": "01330211022221121112311000010110101100000",
-              "renderHash": "42aa321d183c93a3369e5ae021306edccb60274a5f45f09358201da9cef1f242",
-              "textHash": "fef83a8fb0e3a554ea6dc0bba34f54108e9b7bbff0cd4797d26c7257aed56d23"
+              "duration": 3.089,
+              "mouth": "013312111311231110010102011111010000000",
+              "renderHash": "8ef223f3e23fcf784981e60b0c36159fee77ee9bf5558c387f36a3b5cf423692",
+              "textHash": "6c831a66eda1590da11cbdd58839a236a47c838bbc7624f23958254034aee554"
             },
             "morning-coffee": {
               "duration": 2.94,
@@ -163,10 +163,10 @@
               "textHash": "bf0da808f8f2e342171b25cc8b026422e8902d30e776752554d1ea58f6d48198"
             },
             "poke-petals": {
-              "duration": 3.103,
-              "mouth": "120332010000021121010000003121021110000",
-              "renderHash": "69c74798c942132bbd54d6c50ed72f8a0f18c25dc70218b59270dd08513e9f92",
-              "textHash": "736f36a9bcaba3b14df50e208d583cd738a01833d536690a35789dbde44b0a06"
+              "duration": 2.031,
+              "mouth": "13033302000001313202210000",
+              "renderHash": "945ba442dffcf5666de679f45d9b6f61349a684afb18850c39577389d320fd27",
+              "textHash": "890210863ac1797e1f493bd9c2854b3577e484e8a507dbf04a79d298b3ea3763"
             },
             "poke-pressed": {
               "duration": 2.957,
@@ -211,10 +211,10 @@
               "textHash": "6932f09371d6fdacfdbec7f6148a3870140650e3df71e277fc1948a100220b08"
             },
             "general-fluffle": {
-              "duration": 4.937,
-              "mouth": "23322030221211000000012321111100000000012302210020101010010000",
-              "renderHash": "7c0411393517083fa46e3faf2b50400a4b6b29b45f5d41ffd6a67b4738f0e84f",
-              "textHash": "dba414e087ba9f3e7e11fc3ce185ba3000d6458519cb43e8160f431c02b8389b"
+              "duration": 4.651,
+              "mouth": "23323130222221000000000113002110000000002210132122222100000",
+              "renderHash": "c954a05be26cf39537bab6520797947254ec035da0287f76dcedc61fe8bb5707",
+              "textHash": "a98a967ac4ad75401780625e056ad8b7be08b06ba2ff5963f25da66d92c653aa"
             },
             "general-clouds": {
               "duration": 3.718,
@@ -247,10 +247,10 @@
               "textHash": "15c96235558834ca429e114b909d550d83983c607a6c6dc178892068b51b83b5"
             },
             "night-stars": {
-              "duration": 3.085,
-              "mouth": "012122110001233323231223211203121211000",
-              "renderHash": "e73b3b6f4427dc506cb50d7075554c74ab160f96fb10d0afa985964877c7549b",
-              "textHash": "fef83a8fb0e3a554ea6dc0bba34f54108e9b7bbff0cd4797d26c7257aed56d23"
+              "duration": 2.996,
+              "mouth": "01331211122223322021212121213131001000",
+              "renderHash": "5f4197d27087fd01d9c166f04873f9b8db13a85a44559fd20f8ab4eea1f9e476",
+              "textHash": "6c831a66eda1590da11cbdd58839a236a47c838bbc7624f23958254034aee554"
             },
             "morning-coffee": {
               "duration": 2.773,

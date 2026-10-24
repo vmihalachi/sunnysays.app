@@ -9,13 +9,13 @@
     "ro": "Sunt aici! Ce-i nou?"
   },
   "phrase.poke-petals": {
-    "de": "Du hast gerufen? Ich bin ganz für dich da. Mit allen Blütenblättern.",
-    "en": "You called? I'm all yours. Petals and all.",
-    "es": "¿Me llamabas? Aquí me tienes, con pétalos y todo.",
-    "fr": "Tu m'appelais ? Je suis à toi, pétales compris.",
-    "it": "Hai chiamato? Eccomi qua, petali compresi.",
-    "pt-BR": "Chamou? Estou aqui para você, com pétalas e tudo.",
-    "ro": "M-ai chemat? Mă ai la dispoziție, cu tot cu petale."
+    "de": "Hast du gerufen? Blütenblätter sind bereit.",
+    "en": "You called? Petals at the ready.",
+    "es": "¿Me llamabas? Pétalos listos.",
+    "fr": "Tu as sonné ? Pétales au garde-à-vous !",
+    "it": "Hai chiamato? Petali pronti.",
+    "pt-BR": "Chamou? Pétalas a postos!",
+    "ro": "M-ai chemat? Petalele sunt gata!"
   },
   "phrase.poke-pressed": {
     "de": "Du hast mich gedrückt! Ich meine, den Knopf.",
@@ -81,13 +81,13 @@
     "ro": "Rădăcinile fac toată treaba și nimeni nu aplaudă. Eu aplaud."
   },
   "phrase.general-fluffle": {
-    "de": "Ich habe ein Wort erfunden: Flauschel. Es bedeutet dieses Gefühl.",
-    "en": "I made up a word: fluffle. It means this feeling.",
-    "es": "Inventé una palabra: esponjosura. Significa esta sensación.",
-    "fr": "J'ai inventé un mot : flouffle. C'est ce que je ressens, là.",
-    "it": "Ho inventato una parola: morbidoso. Vuol dire questa sensazione.",
-    "pt-BR": "Inventei uma palavra: fofuncho. Quer dizer este sentimento aqui.",
-    "ro": "Am inventat un cuvânt: pufoșeală. Înseamnă senzația asta."
+    "de": "Ich hab ein Wort erfunden: Flauschel. So klingen Wolken.",
+    "en": "I made up a word: fluffle. It's the sound clouds make.",
+    "es": "Me inventé una palabra: flufu. Es el ruido de las nubes.",
+    "fr": "J'ai inventé un mot : flouf. C'est le bruit que font les nuages.",
+    "it": "Ho inventato una parola: sbuffolio. È il suono delle nuvole.",
+    "pt-BR": "Inventei uma palavra: fofalhar. É o som das nuvens.",
+    "ro": "Am inventat un cuvânt: pufoșnet. Așa sună norii."
   },
   "phrase.general-clouds": {
     "de": "Ich habe über Wolken nachgedacht. Noch kein Ergebnis.",
@@ -135,13 +135,13 @@
     "ro": "Am hotărât că azi e o zi bună. Fără motiv."
   },
   "phrase.night-stars": {
-    "de": "Sterne sind nur Sonnenlicht, das lange aufgeblieben ist.",
-    "en": "Stars are just sunlight that stayed up late.",
-    "es": "Las estrellas son luz del sol que se quedó despierta hasta tarde.",
-    "fr": "Les étoiles, c'est du soleil qui a veillé tard.",
-    "it": "Le stelle sono luce del sole che ha fatto tardi.",
-    "pt-BR": "As estrelas são só luz do sol que ficou acordada até tarde.",
-    "ro": "Stelele sunt lumină de soare care a stat trează până târziu."
+    "de": "Sterne sind Sonnen, die lange aufgeblieben sind.",
+    "en": "Stars are suns that stayed up late.",
+    "es": "Las estrellas son soles que trasnocharon.",
+    "fr": "Les étoiles sont des soleils couche-tard.",
+    "it": "Le stelle sono soli che hanno fatto le ore piccole.",
+    "pt-BR": "Estrelas são sóis que ficaram acordados até tarde.",
+    "ro": "Stelele sunt sori care au rămas treji până târziu."
   },
   "phrase.morning-coffee": {
     "de": "Kaffee riecht nach Sonnenaufgang, hat man mir gesagt.",
