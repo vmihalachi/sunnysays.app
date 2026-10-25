@@ -37,8 +37,8 @@ function spokenLine(id: string, language: Language) {
 }
 
 /**
- * The voice switch under Sunny, on pages whose language has recorded voices: one option per voice, named
- * like the app's Settings › Voice picker (the String Catalog's `Male` / `Female`).
+ * The voice switch under Sunny, on pages whose language has more than one recorded voice: one option per
+ * voice, the default first, named like the app's voice pickers (the String Catalog's `voice.<id>`).
  */
 function renderVoiceSwitch(language: Language, label: string) {
   const voices = voice.voices(language.code);
@@ -48,7 +48,7 @@ function renderVoiceSwitch(language: Language, label: string) {
       (name, index) =>
         `<button type="button" role="radio" data-voice="${name}" aria-checked="${index === 0}" tabindex="${
           index === 0 ? 0 : -1
-        }">${escapeHtml(catalogString(name[0].toUpperCase() + name.slice(1), language))}</button>`,
+        }">${escapeHtml(catalogString(`voice.${name}`, language))}</button>`,
     )
     .join("");
   return `<div class="voice-switch" role="radiogroup" aria-label="${escapeAttr(label)}"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9.5h3.5L12 5.5v13l-4.5-4H4z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/></svg>${options}</div>`;
@@ -87,14 +87,14 @@ const otherLines = ["shh-good", "call-still", "general-hi"];
 const spokenIds = [...pokeLines, ...sceneLines, ...otherLines];
 
 /**
- * Sunny's lines come from the app's String Catalog (`phrase.<id>`, plus the `Male` / `Female` voice names),
+ * Sunny's lines come from the app's String Catalog (`phrase.<id>`, plus each voice's name, `voice.<id>`),
  * never from the landing's own JSON, so the page quotes exactly what the app says, in every language the
  * catalog has. They're voiced wherever the voice manifest has the language. Both come through `app-data/`
  * (app-data.ts).
  */
 const data = appData({
   landingRoot: root,
-  keys: [...new Set(spokenIds)].map((id) => `phrase.${id}`).concat(["Male", "Female"]),
+  keys: [...new Set(spokenIds)].map((id) => `phrase.${id}`),
   clipIds: [...new Set(spokenIds)],
 });
 const voice = createVoices(data.voiceDir);

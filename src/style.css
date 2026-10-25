@@ -904,9 +904,10 @@ a {
   color: var(--leaf-text);
 }
 
-/* Sunny's voice, on pages with recorded voices: one pill, the chosen half in sun yellow. */
+/* Sunny's voices, on pages with recorded voices: one pill, the chosen one in sun yellow. Many voices wrap on a phone. */
 .voice-switch {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2px;
   width: fit-content;

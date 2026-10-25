@@ -215,20 +215,22 @@
     "pt-BR": "Estou aqui. Só vim dizer oi.",
     "ro": "Sunt aici. Voiam doar să-ți zic bună."
   },
-  "Male": {
-    "de": "Männlich",
-    "es": "Masculina",
-    "fr": "Masculine",
-    "it": "Maschile",
-    "pt-BR": "Masculina",
-    "ro": "Masculină"
-  },
-  "Female": {
+  "voice.female": {
     "de": "Weiblich",
+    "en": "Female",
     "es": "Femenina",
     "fr": "Féminine",
     "it": "Femminile",
     "pt-BR": "Feminina",
     "ro": "Feminină"
+  },
+  "voice.male": {
+    "de": "Männlich",
+    "en": "Male",
+    "es": "Masculina",
+    "fr": "Masculine",
+    "it": "Maschile",
+    "pt-BR": "Masculina",
+    "ro": "Masculină"
   }
 }

@@ -3,7 +3,8 @@ import { dirname, join, relative, resolve } from "node:path";
 
 /**
  * What the page takes from the app: Sunny's lines from its String Catalog and their recordings from its
- * `voices/` submodule. This repository is mounted at `landing/` in the (private) app repository; a build
+ * `voices/` submodule, plus the name of every recorded voice (the catalog's `voice.<id>`, as the app's voice
+ * pickers show it). This repository is mounted at `landing/` in the (private) app repository; a build
  * there copies just the lines and clips the page uses into `app-data/`, and a build on its own (CI here)
  * reads them from there. Never edit `app-data/` by hand.
  */
@@ -16,9 +17,9 @@ export function appData(options: { landingRoot: string; keys: string[]; clipIds:
   const voiceSource = resolve(landingRoot, "../voices/Voice");
 
   if (existsSync(catalogPath)) {
-    snapshotLines(catalogPath, keys, linesPath);
-    if (existsSync(join(voiceSource, "manifest.json")))
-      snapshotVoices(voiceSource, clipIds, voiceDir);
+    const voiced = existsSync(join(voiceSource, "manifest.json"));
+    snapshotLines(catalogPath, voiced ? [...keys, ...voiceNameKeys(voiceSource)] : keys, linesPath);
+    if (voiced) snapshotVoices(voiceSource, clipIds, voiceDir);
   } else if (!existsSync(linesPath)) {
     throw new Error(`No ${linesPath}: build once inside the sunnysays app repository to write it.`);
   }
@@ -55,6 +56,15 @@ function snapshotLines(catalogPath: string, keys: string[], out: string) {
     );
   }
   writeIfChanged(out, JSON.stringify(lines, null, 2) + "\n");
+}
+
+/** `voice.<id>` for every voice the manifest records, in any language. */
+function voiceNameKeys(source: string): string[] {
+  const manifest = JSON.parse(readFileSync(join(source, "manifest.json"), "utf8"));
+  const voices = Object.values<any>(manifest.languages).flatMap((entry) =>
+    Object.keys(entry.voices),
+  );
+  return [...new Set(voices)].sort().map((voice) => `voice.${voice}`);
 }
 
 /** The voice manifest cut to the clips the page plays, and those clips (stale ones removed). */
