@@ -1149,6 +1149,15 @@ a {
   width: 120px;
   height: auto;
 }
+/* The link card, a soft card like the hero's. */
+.get-card {
+  width: min(100%, 560px);
+  height: auto;
+  margin-top: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: 0 18px 50px var(--shadow);
+}
 
 .footer {
   border-top: 1px solid var(--line);
