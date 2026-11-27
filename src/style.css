@@ -38,6 +38,11 @@
 
   --display: "Fredoka", ui-rounded, system-ui, sans-serif;
   --body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  /* The bottom of the type scale (DESIGN.md › Type): running copy at the body size, nothing else under 16px,
+     and text drawn inside the little desktop at 14px or more. */
+  --text-copy: 1.0625rem;
+  --text-small: 1rem;
+  --text-drawn: 0.875rem;
   --radius: 22px;
   --gutter: clamp(16px, 4vw, 40px);
   --max: 1120px;
@@ -110,7 +115,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font: 400 1.0625rem/1.6 var(--body);
+  font: 400 var(--text-copy)/1.6 var(--body);
   overflow-x: hidden;
 }
 
@@ -204,8 +209,7 @@ a {
   list-style: none;
   cursor: pointer;
   user-select: none;
-  font: 600 0.875rem/1 var(--body);
-  letter-spacing: 0.04em;
+  font: 600 var(--text-small)/1 var(--body);
   color: var(--ink);
 }
 .language-switcher summary::-webkit-details-marker {
@@ -241,6 +245,7 @@ a {
   top: calc(100% + 8px);
   right: 0;
   z-index: 20;
+  width: max-content;
   min-width: 200px;
   margin: 0;
   padding: 6px;
@@ -258,7 +263,7 @@ a {
   border-radius: 12px;
   text-decoration: none;
   color: var(--ink);
-  font: 500 0.9375rem/1 var(--body);
+  font: 500 var(--text-small)/1.2 var(--body);
 }
 .language-menu a[aria-current="page"] {
   background: var(--sun);
@@ -268,11 +273,10 @@ a {
 .language-menu a:not([aria-current="page"]):focus-visible {
   background: var(--sun-soft);
 }
+/* At 0.85 the code keeps 4.5:1 on every row: plain, current and hovered, in both themes. */
 .language-code {
   margin-left: auto;
-  font-size: 0.75rem;
-  letter-spacing: 0.08em;
-  opacity: 0.7;
+  opacity: 0.85;
 }
 .theme-toggle {
   width: 40px;
@@ -302,7 +306,7 @@ a {
 }
 .nav-cta {
   text-decoration: none;
-  font: 600 1rem/1 var(--display);
+  font: 600 var(--text-small)/1 var(--display);
   padding: 11px 18px;
   border-radius: 999px;
   background: var(--sun);
@@ -323,6 +327,8 @@ a {
   background: var(--sun);
   color: var(--on-sun);
   font: 600 1.0625rem/1.1 var(--display);
+  /* A label that wraps on a phone splits evenly ("Coming soon to the / Mac App Store"), no word left alone. */
+  text-wrap: balance;
   text-decoration: none;
   cursor: pointer;
   transition:
@@ -382,7 +388,7 @@ a {
 }
 .store-note {
   color: var(--ink-soft);
-  font-size: 0.9375rem;
+  font-size: var(--text-small);
 }
 /* HERO: the copy, a little Mac screen with Sunny's panel open, the rule line and the toggles */
 .hero {
@@ -395,9 +401,11 @@ a {
     "copy screen"
     "controls screen"
     "controls rule";
-  grid-template-rows: auto 1fr auto;
+  /* The controls sit 22px under the copy. The rule line sits 22px under the screen when the screen is taller,
+     and level with the controls when the copy is taller. Row 2 is only the part of the screen below the copy,
+     and the two 22px gaps are the margins of the rule and the controls. */
+  grid-template-rows: auto auto 1fr;
   column-gap: clamp(32px, 5vw, 64px);
-  row-gap: 22px;
   align-items: start;
 }
 .hero-copy {
@@ -457,12 +465,17 @@ a {
   gap: 10px;
   height: 30px;
   padding: 0 12px;
-  font: 600 0.8125rem/1 var(--body);
+  font: 600 var(--text-drawn)/1 var(--body);
   background: color-mix(in srgb, var(--card) 82%, transparent);
   border-bottom: 1.5px solid var(--line);
 }
 .menubar .spacer {
   flex: 1;
+}
+/* On a narrow phone the menu placeholders give way; the icons and the clock keep their size and one line. */
+.menubar > :not(.blob, .spacer) {
+  flex: none;
+  white-space: nowrap;
 }
 .blob {
   width: 30px;
@@ -666,7 +679,7 @@ a {
   background: var(--card);
   border: 2.5px solid var(--ink);
   border-radius: 18px;
-  font: 600 1rem/1.3 var(--display);
+  font: 600 var(--text-copy)/1.3 var(--display);
   min-height: 2.9em;
   text-wrap: pretty;
 }
@@ -750,7 +763,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font: 600 0.75rem/1 var(--display);
+  gap: 6px;
+  font: 600 var(--text-drawn)/1 var(--display);
 }
 .hang {
   width: 26px;
@@ -802,10 +816,10 @@ a {
 .slide i:nth-child(4) {
   height: 90%;
 }
+/* Full strength: at 0.85 the lock caption fell to about 4.3:1 on the blurred desktop. */
 .fullscreen p,
 .lock p {
-  font: 600 0.875rem/1 var(--display);
-  opacity: 0.85;
+  font: 600 var(--text-drawn)/1 var(--display);
 }
 .lock {
   background: color-mix(in srgb, var(--night) 72%, transparent);
@@ -823,6 +837,7 @@ a {
 /* What Sunny did, and why */
 .rule {
   grid-area: rule;
+  margin-top: 22px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -831,7 +846,7 @@ a {
   border-radius: 16px;
   background: var(--leaf-soft);
   color: var(--leaf-text);
-  font: 600 1rem/1.3 var(--display);
+  font: 600 var(--text-copy)/1.3 var(--display);
 }
 /* A little leaf from Sunny's stem, not a status light. */
 .rule::before {
@@ -848,6 +863,7 @@ a {
 
 .controls {
   grid-area: controls;
+  margin-top: 22px;
   display: grid;
   gap: 14px;
 }
@@ -861,9 +877,11 @@ a {
   font: 600 1.125rem/1.2 var(--display);
   color: var(--ink);
 }
+/* Two toggles a row beside the screen and on phones, three where the hero is one wide column, one on
+   the narrowest phones: every label keeps to two lines at 16px, in every language. */
 .toggles {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px;
 }
 .toggle {
@@ -876,8 +894,10 @@ a {
   border: 2px solid var(--line);
   background: var(--card);
   color: var(--ink);
-  font: 600 0.9375rem/1.1 var(--display);
+  font: 600 var(--text-small)/1.15 var(--display);
   text-align: left;
+  /* Balance splits a two-line label evenly. Pretty often left one word alone on the last line. */
+  text-wrap: balance;
   cursor: pointer;
   transition: transform 120ms ease;
 }
@@ -928,7 +948,7 @@ a {
   stroke-linejoin: round;
 }
 .voice-switch button {
-  font: 500 0.9375rem/1 var(--body);
+  font: 500 var(--text-small)/1 var(--body);
   padding: 8px 14px;
   border: 0;
   border-radius: 999px;
@@ -1107,7 +1127,7 @@ a {
   border-radius: 999px;
   background: var(--leaf-soft);
   color: var(--leaf-text);
-  font: 600 1rem/1 var(--display);
+  font: 600 var(--text-small)/1 var(--display);
 }
 .no-list svg {
   width: 20px;
@@ -1166,7 +1186,7 @@ a {
   padding: 32px var(--gutter) 40px;
   text-align: center;
   color: var(--ink-soft);
-  font-size: 0.9375rem;
+  font-size: var(--text-small);
   display: grid;
   gap: 10px;
 }
@@ -1186,9 +1206,11 @@ a {
 .legal-page header {
   margin-bottom: 32px;
 }
+/* German's long nouns ("Datenschutzerklärung") break with a hyphen instead of running past a phone's edge. */
 .legal-page h1 {
   font-size: clamp(2.25rem, 5vw, 3rem);
   margin: 18px 0 8px;
+  hyphens: auto;
 }
 .legal-page h2 {
   font-size: 1.5rem;
@@ -1219,6 +1241,14 @@ a {
       "rule"
       "controls";
     grid-template-rows: none;
+    row-gap: 22px;
+  }
+  .rule,
+  .controls {
+    margin-top: 0;
+  }
+  .toggles {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .nav-links {
     display: none;
@@ -1227,13 +1257,26 @@ a {
     margin-left: auto;
   }
 }
+@media (max-width: 640px) {
+  .toggles {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 400px) {
+  .toggle {
+    gap: 6px;
+    padding-inline: 8px;
+  }
+}
+@media (max-width: 359px) {
+  .toggles {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
 @media (max-width: 520px) {
   /* The store button sits right under the title; in the bar it would push past the screen's edge. */
   .nav-cta {
     display: none;
-  }
-  .toggles {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .button {
     padding-inline: 16px;
