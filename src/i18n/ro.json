@@ -37,7 +37,7 @@
     "note": "Gratuit"
   },
   "hero": {
-    "title": "O floare-a-soarelui mică ce spune lucruri.",
+    "title": "O floare-a-⁠soarelui mică ce spune lucruri.",
     "lede": "Stă în bara de meniu sau în zona de notificare, mai zice câte ceva din când în când și știe când să tacă. Pune-l la încercare mai jos.",
     "say": "Spune ceva",
     "shh": "Șșt",
@@ -87,7 +87,7 @@
       "callOver": "Gata apelul: o vorbă spusă încet, apoi totul ca înainte.",
       "callOverQuiet": "Gata apelul. Dar tot tace.",
       "full": "Ecran complet: așteaptă să revii.",
-      "fullOff": "Gata cu ecranul complet. N-a vorbit nicio clipă peste slide-uri.",
+      "fullOff": "Gata cu ecranul complet. N-a vorbit nicio clipă peste slide-⁠uri.",
       "away": "Birou gol sau ecran blocat: nu vorbește cu pereții.",
       "back": "Bine ai revenit. O vorbă și te lasă să lucrezi.",
       "backQuiet": "Bine ai revenit, dar tot tace.",

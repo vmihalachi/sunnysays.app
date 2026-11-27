@@ -419,6 +419,8 @@ a {
   font-size: clamp(1.0625rem, 1.5vw, 1.1875rem);
   color: var(--ink-soft);
   max-width: 30em;
+  /* No word alone on the last line, now that a one-letter word ("y", "e") moves down with the word after it. */
+  text-wrap: pretty;
 }
 .hero-actions {
   margin-top: 22px;
