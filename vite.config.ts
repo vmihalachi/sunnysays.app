@@ -143,6 +143,10 @@ const landing = companionLanding({
   siteUrl,
   appStoreUrl,
   storeButton: storeButtons,
+  // What `laching-landing check` holds the legal pages to, in every language: both stores (the store buttons'
+  // listings, null until live) and both platforms, named as the pages write them. They change no page.
+  stores: { apple: appStoreUrl, microsoft: microsoftStoreUrl },
+  platforms: ["Mac", "Windows"],
   contactEmail: "hello@sunnysays.app",
   languages,
   defaultLanguageCode,

@@ -13,6 +13,7 @@ vp install
 vp dev      # http://localhost:5173
 vp check    # format, lint, type check
 vp build    # dist/
+npx laching-landing check   # dist/: links, hreflang, pages in every language, stores and platforms
 ```
 
 - `index.html` is a template: `{{key}}` placeholders are filled from `src/i18n/<language>.json`, and the build
@@ -28,9 +29,9 @@ vp build    # dist/
 
 ## Deploy
 
-`.github/workflows/deploy.yml` checks and builds every push and pull request, and deploys `main` to a
-Cloudflare Worker serving static assets (`wrangler.json`, with the headers and CSP in the generated
-`_headers`).
+`.github/workflows/deploy.yml` checks, builds and runs `laching-landing check` on every push and pull
+request, and deploys `main` to a Cloudflare Worker serving static assets (`wrangler.json`, with the headers
+and CSP in the generated `_headers`).
 
 ## License
 

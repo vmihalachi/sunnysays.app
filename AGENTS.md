@@ -9,7 +9,9 @@ cover this page). Commit and push here first, then commit the new submodule poin
 - `app-data/` is a snapshot of Sunny's lines and their recordings, written by a build inside the app repository
   (`app-data.ts`); a standalone build (CI here) reads it. Never edit it by hand.
 - No third-party scripts, fonts or requests: the CSP in the generated `_headers` has `connect-src 'none'`.
-- Before pushing: `vp check && vp build`. `deploy.yml` deploys `main` to Cloudflare.
+- Before pushing: `vp check && vp build && npx laching-landing check`. The check fails on a dead link, one-way
+  hreflang, a page missing in a language, or a legal page that never names a store or platform in
+  `vite.config.ts` (`stores`, `platforms`). `deploy.yml` runs all three, then deploys `main` to Cloudflare.
 
 <!--VITE PLUS START-->
 
