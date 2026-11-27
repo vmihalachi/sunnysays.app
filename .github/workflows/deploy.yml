@@ -31,8 +31,9 @@ jobs:
       - run: npm ci
       - run: npx vp check
       - run: npm run build
-      # Dead links, one-way hreflang, a page missing in a language, a legal page that never names a store or
-      # platform (laching-landing check, offline against dist/): any problem stops the deploy.
+      # Dead links, one-way hreflang, a canonical that isn't the page itself, a page missing in a language, a
+      # home page with no contact link, a legal page that never names a store or platform (laching-landing
+      # check, offline against dist/): any problem stops the deploy.
       - run: npx laching-landing check
       - name: Deploy
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
