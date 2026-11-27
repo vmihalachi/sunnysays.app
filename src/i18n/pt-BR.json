@@ -53,7 +53,13 @@
     "terms": "Termos",
     "contact": "Contato",
     "openSource": "Este site é de código aberto",
-    "fonts": "Composto em Fredoka (SIL Open Font License)."
+    "fonts": "Composto em Fredoka (SIL Open Font License).",
+    "moreFrom": "Mais do mesmo criador",
+    "taglines": {
+      "mybackhurts": "tira você da cadeira a cada 45 minutos",
+      "pagliacci": "conta uma piada mais ou menos uma vez por hora"
+    },
+    "builtOn": "Feito com Laching"
   },
   "notFound": {
     "metaTitle": "Não encontrada · sunnysays",

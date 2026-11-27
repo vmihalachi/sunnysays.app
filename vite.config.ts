@@ -147,6 +147,28 @@ const landing = companionLanding({
   languages,
   defaultLanguageCode,
   locales,
+  // The footer's `{{moreFrom}}`: the same three apps go in each of their landings, and Laching leaves out the one
+  // whose `url` is this site's `siteUrl`, so sunnysays needs no tagline here. The words are `footer` in the locales.
+  moreFrom: {
+    apps: [
+      {
+        name: "mybackhurts",
+        url: "https://mybackhurts.app/",
+        tagline: (locale) => String(locale.footer.taglines.mybackhurts),
+      },
+      {
+        name: "Mister Pagliacci",
+        url: "https://pagliacci.app/",
+        tagline: (locale) => String(locale.footer.taglines.pagliacci),
+      },
+      { name: "sunnysays", url: "https://sunnysays.app/" },
+    ],
+    label: (locale) => String(locale.footer.moreFrom),
+    builtOn: {
+      url: "https://vmihalachi.github.io/laching/",
+      label: (locale) => String(locale.footer.builtOn),
+    },
+  },
   placeholders: (key, language, locale) => {
     if (key.startsWith("line.")) return escapeHtml(phrase(key.slice("line.".length), language));
     switch (key) {

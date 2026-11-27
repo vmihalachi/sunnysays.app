@@ -71,7 +71,13 @@
     "terms": "Terms",
     "contact": "Contact",
     "openSource": "This site is open source",
-    "fonts": "Set in Fredoka (SIL Open Font License)."
+    "fonts": "Set in Fredoka (SIL Open Font License).",
+    "moreFrom": "More from the same maker",
+    "taglines": {
+      "mybackhurts": "gets you off your chair every 45 minutes",
+      "pagliacci": "tells a joke about once an hour"
+    },
+    "builtOn": "Built on Laching"
   },
   "notFound": {
     "metaTitle": "Not found · sunnysays",
