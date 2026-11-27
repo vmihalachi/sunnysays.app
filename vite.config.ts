@@ -52,15 +52,17 @@ function keepOneLetterWordsIn(value: unknown, code: LanguageCode): unknown {
 }
 
 /**
- * Each language's locale file, its page copy joined like Sunny's lines. `meta` (the head's tags and the URL)
- * and `og` (the social card, whose lines never wrap) stay as written.
+ * Each language's locale file, its page copy joined like Sunny's lines. `locale` (the `lang` attribute and the
+ * social card's file name), `meta` (the head's tags and the URL) and `og` (the social card, whose lines never
+ * wrap) stay as written.
  */
+const asWritten = new Set(["locale", "meta", "og"]);
 const locales = Object.fromEntries(
   languages.map(({ code }) => {
     const locale = JSON.parse(readFileSync(resolve(root, `src/i18n/${code}.json`), "utf8"));
     const shown = Object.entries(locale).map(([key, value]) => [
       key,
-      key === "meta" || key === "og" ? value : keepOneLetterWordsIn(value, code),
+      asWritten.has(key) ? value : keepOneLetterWordsIn(value, code),
     ]);
     return [code, Object.fromEntries(shown)];
   }),
