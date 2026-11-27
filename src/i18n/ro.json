@@ -3,12 +3,12 @@
     "lang": "ro"
   },
   "meta": {
-    "title": "sunnysays: o floare-a-soarelui mică ce locuiește în bara de meniu sau în zona de notificare",
-    "description": "Sunny e o floare-a-soarelui într-un ghiveci, care locuiește în bara de meniu sau în zona de notificare și spune câte ceva cam o dată pe oră. Tace în timpul apelurilor. Fără rețea. Gratuită.",
+    "title": "sunnysays: o floare-a-soarelui mică ce locuiește în bara de meniu sau în zona de notificare",
+    "description": "Sunny e o floare-a-soarelui într-un ghiveci, care locuiește în bara de meniu sau în zona de notificare și spune câte ceva cam o dată pe oră. Tace în timpul apelurilor. Fără rețea. Gratuită.",
     "url": "https://sunnysays.app/ro/",
-    "ogTitle": "sunnysays: o floare-a-soarelui mică ce vorbește",
+    "ogTitle": "sunnysays: o floare-a-soarelui mică ce vorbește",
     "ogDescription": "Sunny locuiește în bara de meniu sau în zona de notificare, spune câte ceva din când în când și tace în timpul apelurilor. Gratuită pentru Mac și Windows.",
-    "ogImageAlt": "Sunny, o floare-a-soarelui zâmbitoare într-un ghiveci de teracotă, lângă un balon de vorbire."
+    "ogImageAlt": "Sunny, o floare-a-soarelui zâmbitoare într-un ghiveci de teracotă, lângă un balon de vorbire."
   },
   "og": {
     "title1": "O floare-a-soarelui mică",
@@ -17,7 +17,7 @@
   },
   "a11y": {
     "skipLink": "Sari la conținut",
-    "sunny": "Sunny, o floare-a-soarelui într-un ghiveci. Apasă pe ea ca să auzi o replică."
+    "sunny": "Sunny, o floare-a-soarelui într-un ghiveci. Apasă pe ea ca să auzi o replică."
   },
   "nav": {
     "ariaLabel": "Principal",
@@ -37,7 +37,7 @@
     "note": "Gratuit"
   },
   "hero": {
-    "title": "O floare-a-soarelui mică ce spune lucruri.",
+    "title": "O floare-a-soarelui mică ce spune lucruri.",
     "lede": "Stă în bara de meniu sau în zona de notificare, mai zice câte ceva din când în când și știe când să tacă. Pune-l la încercare mai jos.",
     "say": "Spune ceva",
     "shh": "Șșt",
@@ -57,14 +57,14 @@
     "moreFrom": "Tot de la același autor",
     "taglines": {
       "mybackhurts": "te ridică de pe scaun la fiecare 45 de minute",
-      "pagliacci": "spune o glumă cam o dată pe oră"
+      "pagliacci": "spune o glumă cam o dată pe oră"
     },
     "builtOn": "Făcut cu Laching"
   },
   "notFound": {
     "metaTitle": "Negăsit · sunnysays",
     "title": "Aici nu crește nimic.",
-    "body": "Pagina asta nu există. Sunny a căutat peste tot. Ei bine, peste tot unde vede din ghiveci.",
+    "body": "Pagina asta nu există. Sunny a căutat peste tot. Ei bine, peste tot unde vede din ghiveci.",
     "home": "Înapoi la Sunny"
   },
   "runtime": {
@@ -76,29 +76,29 @@
     "shushed": "(șșt)",
     "rules": {
       "start": "Apasă pe ce vrei mai jos. Sunny respectă aceleași reguli ca pe computer.",
-      "poke": "Apasă oricând. Pe computer vorbește și singur, cam o dată pe oră.",
+      "poke": "Apasă oricând. Pe computer vorbește și singur, cam o dată pe oră.",
       "polite": "Nu acum: n-ar fi frumos.",
       "shushedPoke": "Tace mâlc. Apasă Trezește-te ca să-l auzi din nou.",
-      "shh": "Șșt: pentru o oră, pentru azi sau până zici tu.",
-      "wake": "Se trezește și zice o vorbă.",
+      "shh": "Șșt: pentru o oră, pentru azi sau până zici tu.",
+      "wake": "Se trezește și zice o vorbă.",
       "wakeQuiet": "S-a trezit, dar tot tace.",
-      "callCut": "A început un apel: s-a oprit la jumătatea vorbei.",
-      "call": "Cât ești în apel, nu scoate o vorbă.",
-      "callOver": "Gata apelul: o vorbă spusă încet, apoi totul ca înainte.",
+      "callCut": "A început un apel: s-a oprit la jumătatea vorbei.",
+      "call": "Cât ești în apel, nu scoate o vorbă.",
+      "callOver": "Gata apelul: o vorbă spusă încet, apoi totul ca înainte.",
       "callOverQuiet": "Gata apelul. Dar tot tace.",
       "full": "Ecran complet: așteaptă să revii.",
       "fullOff": "Gata cu ecranul complet. N-a vorbit nicio clipă peste slide-uri.",
       "away": "Birou gol sau ecran blocat: nu vorbește cu pereții.",
-      "back": "Bine ai revenit. O vorbă și te lasă să lucrezi.",
+      "back": "Bine ai revenit. O vorbă și te lasă să lucrezi.",
       "backQuiet": "Bine ai revenit, dar tot tace.",
       "battery": "Observă și mărunțișurile, cum ar fi bateria pe terminate.",
-      "batteryQuiet": "A văzut bateria, dar nu comentează.",
+      "batteryQuiet": "A văzut bateria, dar nu comentează.",
       "batteryOff": "Pus la încărcat.",
       "dark": "Modul întunecat? Și asta observă.",
-      "darkQuiet": "Modul întunecat. A băgat de seamă, dar tace.",
+      "darkQuiet": "Modul întunecat. A băgat de seamă, dar tace.",
       "darkOff": "Înapoi la lumină.",
       "night": "Când se face târziu, ți-o spune cu blândețe. Orele lui le alegi tu.",
-      "nightQuiet": "E târziu și e liniște.",
+      "nightQuiet": "E târziu și e liniște.",
       "nightOff": "Iar s-a făcut dimineață."
     }
   },
@@ -108,9 +108,9 @@
     "call": "Intri într-⁠un apel",
     "full": "Treci pe ecran complet",
     "away": "Pleci de la birou",
-    "battery": "Bateria e la 8%",
+    "battery": "Bateria e la 8%",
     "dark": "Activezi modul întunecat",
-    "night": "E 2 noaptea",
+    "night": "E 2 noaptea",
     "callWindow": "Ședință cu echipa",
     "presenting": "Prezentare · ecran complet",
     "locked": "Blocat"
@@ -118,6 +118,6 @@
   "promise": {
     "title": "Gratuit și nu trimite nimic nimănui.",
     "network": "Fără internet",
-    "body": "Toate funcțiile sunt gratuite. Să devii Susținător sau să lași un bacșiș, prin App Store sau Microsoft Store, nu deblochează nimic: e doar un mulțumesc."
+    "body": "Toate funcțiile sunt gratuite. Să devii Susținător sau să lași un bacșiș, prin App Store sau Microsoft Store, nu deblochează nimic: e doar un mulțumesc."
   }
 }
