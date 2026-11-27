@@ -46,8 +46,7 @@
     "voiceLabel": "Vocea lui Sunny"
   },
   "get": {
-    "title": "Fă-i loc lui Sunny lângă fereastra ta.",
-    "lede": "E mic, e politicos și se bucură să te vadă."
+    "title": "Fă-i loc lui Sunny lângă fereastra ta."
   },
   "footer": {
     "privacy": "Confidențialitate",
@@ -111,8 +110,8 @@
     "locked": "Blocat"
   },
   "promise": {
-    "title": "Manierat, discret, gratuit.",
+    "title": "Gratuit și nu trimite nimic nimănui.",
     "network": "Fără internet",
-    "body": "Toate funcțiile sunt gratuite. Bacșișurile trec prin App Store, nu deblochează nimic și sunt doar un mulțumesc."
+    "body": "Toate funcțiile sunt gratuite. Să devii Susținător sau să lași un bacșiș, prin App Store sau Microsoft Store, nu deblochează nimic: e doar un mulțumesc."
   }
 }

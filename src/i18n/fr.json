@@ -46,8 +46,7 @@
     "voiceLabel": "Voix de Sunny"
   },
   "get": {
-    "title": "Offrez à Sunny une place près de votre fenêtre.",
-    "lede": "Il est petit, poli, et content de vous voir."
+    "title": "Offrez à Sunny une place près de votre fenêtre."
   },
   "footer": {
     "privacy": "Confidentialité",
@@ -111,8 +110,8 @@
     "locked": "Verrouillé"
   },
   "promise": {
-    "title": "Poli, privé, gratuit.",
+    "title": "Gratuit, et il n'envoie rien à personne.",
     "network": "Pas de réseau",
-    "body": "Tout est gratuit. Les pourboires passent par l'App Store et ne débloquent rien : c'est juste un merci."
+    "body": "Tout est gratuit. Devenir Supporter ou laisser un pourboire, via l'App Store ou le Microsoft Store, ne débloque rien : c'est juste un merci."
   }
 }

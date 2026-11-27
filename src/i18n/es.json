@@ -46,8 +46,7 @@
     "voiceLabel": "Voz de Sunny"
   },
   "get": {
-    "title": "Dale a Sunny un sitio junto a tu ventana.",
-    "lede": "Es pequeño, es educado y se alegra de verte."
+    "title": "Dale a Sunny un sitio junto a tu ventana."
   },
   "footer": {
     "privacy": "Privacidad",
@@ -111,8 +110,8 @@
     "locked": "Pantalla bloqueada"
   },
   "promise": {
-    "title": "Educado, privado y gratis.",
+    "title": "Gratis, y no envía nada a nadie.",
     "network": "Sin internet",
-    "body": "Todo es gratis. Las propinas van por la App Store, no desbloquean nada: son solo un gracias."
+    "body": "Todo es gratis. Hacerte mecenas o dejar una propina, desde la App Store o Microsoft Store, no desbloquea nada: es solo un gracias."
   }
 }

@@ -46,8 +46,7 @@
     "voiceLabel": "La voce di Sunny"
   },
   "get": {
-    "title": "Dai a Sunny un posto vicino alla tua finestra.",
-    "lede": "È piccolo, è educato ed è contento di vederti."
+    "title": "Dai a Sunny un posto vicino alla tua finestra."
   },
   "footer": {
     "privacy": "Privacy",
@@ -111,8 +110,8 @@
     "locked": "Bloccato"
   },
   "promise": {
-    "title": "Educato, riservato e gratis.",
+    "title": "Gratis, e non manda niente a nessuno.",
     "network": "Niente internet",
-    "body": "È tutto gratis. Le mance passano dall'App Store e non sbloccano niente: sono solo un grazie."
+    "body": "È tutto gratis. Diventare Sostenitore o lasciare una mancia, dall'App Store o dal Microsoft Store, non sblocca niente: è solo un grazie."
   }
 }

@@ -46,8 +46,7 @@
     "voiceLabel": "Voz do Sunny"
   },
   "get": {
-    "title": "Dê ao Sunny um cantinho perto da sua janela.",
-    "lede": "Ele é pequeno, educado e fica feliz em te ver."
+    "title": "Dê ao Sunny um cantinho perto da sua janela."
   },
   "footer": {
     "privacy": "Privacidade",
@@ -111,8 +110,8 @@
     "locked": "Bloqueado"
   },
   "promise": {
-    "title": "Educado, discreto e grátis.",
+    "title": "Grátis, e não manda nada para ninguém.",
     "network": "Sem internet",
-    "body": "Tudo é grátis. As gorjetas passam pela App Store, não liberam nada e são só um obrigado."
+    "body": "Tudo é grátis. Apoiar ou deixar uma gorjeta, pela App Store ou pela Microsoft Store, não libera nada: é só um obrigado."
   }
 }

@@ -46,8 +46,7 @@
     "voiceLabel": "Sunnys Stimme"
   },
   "get": {
-    "title": "Gib Sunny einen Platz am Fenster.",
-    "lede": "Es ist klein, höflich und freut sich, dich zu sehen."
+    "title": "Gib Sunny einen Platz am Fenster."
   },
   "footer": {
     "privacy": "Datenschutz",
@@ -111,8 +110,8 @@
     "locked": "Gesperrt"
   },
   "promise": {
-    "title": "Höflich, diskret, gratis.",
+    "title": "Gratis, und es telefoniert nie nach Hause.",
     "network": "Kein Netzwerk",
-    "body": "Alles ist gratis. Trinkgeld läuft über den App Store, schaltet nichts frei und ist einfach ein Dankeschön."
+    "body": "Alles ist gratis. Ob du Supporter wirst oder Trinkgeld gibst: Das läuft über den App Store oder den Microsoft Store, schaltet nichts frei und ist einfach ein Dankeschön."
   }
 }

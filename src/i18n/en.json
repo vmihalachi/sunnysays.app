@@ -59,13 +59,12 @@
     "locked": "Locked"
   },
   "promise": {
-    "title": "Polite, private, free.",
+    "title": "Free, and it never phones home.",
     "network": "No network",
     "body": "Every feature is free. Supporter and tips go through the App Store or the Microsoft Store, unlock nothing, and just say thanks."
   },
   "get": {
-    "title": "Give Sunny a spot by your window.",
-    "lede": "It's small, it's polite, and it's happy to see you."
+    "title": "Give Sunny a spot by your window."
   },
   "footer": {
     "privacy": "Privacy",
