@@ -53,7 +53,13 @@
     "terms": "Nutzungsbedingungen",
     "contact": "Kontakt",
     "openSource": "Diese Website ist Open Source",
-    "fonts": "Gesetzt in Fredoka (SIL Open Font License)."
+    "fonts": "Gesetzt in Fredoka (SIL Open Font License).",
+    "moreFrom": "Mehr vom selben Entwickler",
+    "taglines": {
+      "mybackhurts": "holt dich alle 45 Minuten vom Stuhl",
+      "pagliacci": "erzählt ungefähr einmal pro Stunde einen Witz"
+    },
+    "builtOn": "Basiert auf Laching"
   },
   "notFound": {
     "metaTitle": "Nicht gefunden · sunnysays",

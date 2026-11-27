@@ -53,7 +53,13 @@
     "terms": "Conditions",
     "contact": "Contact",
     "openSource": "Ce site est open source",
-    "fonts": "Composé en Fredoka (licence SIL Open Font)."
+    "fonts": "Composé en Fredoka (licence SIL Open Font).",
+    "moreFrom": "Du même créateur",
+    "taglines": {
+      "mybackhurts": "vous décolle de votre chaise toutes les 45 minutes",
+      "pagliacci": "raconte une blague environ une fois par heure"
+    },
+    "builtOn": "Conçu avec Laching"
   },
   "notFound": {
     "metaTitle": "Introuvable · sunnysays",

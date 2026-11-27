@@ -1196,6 +1196,32 @@ a {
   flex-wrap: wrap;
   gap: 8px 22px;
 }
+/* The maker's other apps and Laching (Laching's `{{moreFrom}}`): a plain list in the footer's own type, one app a
+   line, its name linked and what it does after it. */
+.more-from {
+  display: grid;
+  gap: 8px;
+}
+.more-from:not(:first-child) {
+  margin-top: 14px;
+}
+.more-from:not(:last-child) {
+  margin-bottom: 14px;
+}
+.more-from-apps {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 8px;
+}
+.more-from-apps li,
+.more-from-label {
+  text-wrap: balance;
+}
+.built-on {
+  margin-top: 6px;
+}
 
 /* LEGAL PAGES */
 .legal-page {

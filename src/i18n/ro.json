@@ -53,7 +53,13 @@
     "terms": "Termeni",
     "contact": "Contact",
     "openSource": "Acest site este open source",
-    "fonts": "Scris cu Fredoka (SIL Open Font License)."
+    "fonts": "Scris cu Fredoka (SIL Open Font License).",
+    "moreFrom": "Mai multe de la același autor",
+    "taglines": {
+      "mybackhurts": "te ridică de pe scaun la fiecare 45 de minute",
+      "pagliacci": "spune o glumă cam o dată pe oră"
+    },
+    "builtOn": "Realizat cu Laching"
   },
   "notFound": {
     "metaTitle": "Negăsit · sunnysays",
