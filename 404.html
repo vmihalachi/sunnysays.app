@@ -26,11 +26,16 @@
     <main id="main">
       <section class="get" aria-labelledby="not-found-title">
         <img class="get-sunny" src="/sunny.svg" width="120" height="132" alt="" />
-        <h1 id="not-found-title">{{notFound.title}}</h1>
-        <p>{{notFound.body}}</p>
-        <a class="button button-big" href="/">{{notFound.home}}</a>
+        <h1 id="not-found-title" data-not-found="title">{{notFound.title}}</h1>
+        <p data-not-found="body">{{notFound.body}}</p>
+        <a class="button button-big" href="/" data-not-found="home">{{notFound.home}}</a>
       </section>
     </main>
     <footer class="footer">{{moreFrom}}</footer>
+
+    <script type="application/json" id="not-found-i18n">
+      {{notFoundJson}}
+    </script>
+    <script type="module" src="/src/not-found.js"></script>
   </body>
 </html>

@@ -1,6 +1,13 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
-import { appleIcon, companionLanding, escapeAttr, escapeHtml, scriptJson } from "@laching/landing";
+import {
+  appleIcon,
+  companionLanding,
+  escapeAttr,
+  escapeHtml,
+  scriptJson,
+  type CompanionLandingOptions,
+} from "@laching/landing";
 import { defineConfig } from "vite-plus";
 import { appData } from "./app-data";
 import { createVoices } from "./voice";
@@ -192,6 +199,29 @@ function storeButtons(locale: any, big: boolean) {
   return `<div class="store-buttons">${storeLink("mac", appStoreUrl, appleIcon, store.mac, store.soon, big)}${storeLink("windows", microsoftStoreUrl, windowsIcon, store.windows, store.windowsSoon, big)}</div>`;
 }
 
+// The footer's `{{moreFrom}}`: the same three apps go in each of their landings, and Laching leaves out the one
+// whose `url` is this site's `siteUrl`, so sunnysays needs no tagline here. The words are `footer` in the locales.
+const moreFrom: NonNullable<CompanionLandingOptions<Language>["moreFrom"]> = {
+  apps: [
+    {
+      name: "mybackhurts",
+      url: "https://mybackhurts.app",
+      tagline: (locale) => String(locale.footer.taglines.mybackhurts),
+    },
+    {
+      name: "Mister Pagliacci",
+      url: "https://pagliacci.app",
+      tagline: (locale) => String(locale.footer.taglines.pagliacci),
+    },
+    { name: "sunnysays", url: "https://sunnysays.app" },
+  ],
+  label: (locale) => String(locale.footer.moreFrom),
+  builtOn: {
+    url: "https://vmihalachi.github.io/laching/",
+    label: (locale) => String(locale.footer.builtOn),
+  },
+};
+
 /**
  * The page's plumbing (every language's home page from `index.html`, the legal pages' links, the sitemap, the
  * `_headers` with its CSP, the social cards and icons) is Laching's (`@laching/landing`); what's here is
@@ -210,28 +240,7 @@ const landing = companionLanding({
   languages,
   defaultLanguageCode,
   locales,
-  // The footer's `{{moreFrom}}`: the same three apps go in each of their landings, and Laching leaves out the one
-  // whose `url` is this site's `siteUrl`, so sunnysays needs no tagline here. The words are `footer` in the locales.
-  moreFrom: {
-    apps: [
-      {
-        name: "mybackhurts",
-        url: "https://mybackhurts.app",
-        tagline: (locale) => String(locale.footer.taglines.mybackhurts),
-      },
-      {
-        name: "Mister Pagliacci",
-        url: "https://pagliacci.app",
-        tagline: (locale) => String(locale.footer.taglines.pagliacci),
-      },
-      { name: "sunnysays", url: "https://sunnysays.app" },
-    ],
-    label: (locale) => String(locale.footer.moreFrom),
-    builtOn: {
-      url: "https://vmihalachi.github.io/laching/",
-      label: (locale) => String(locale.footer.builtOn),
-    },
-  },
+  moreFrom,
   placeholders: (key, language, locale) => {
     if (key.startsWith("line."))
       return escapeHtml(shownPhrase(key.slice("line.".length), language));
@@ -250,6 +259,29 @@ const landing = companionLanding({
         });
       case "voiceSwitch":
         return renderVoiceSwitch(language, String(locale.hero.voiceLabel));
+      // The 404's words in every language, with its footer's, for not-found.js to pick the visitor's.
+      case "notFoundJson":
+        return scriptJson(
+          Object.fromEntries(
+            languages.map((other) => {
+              const words = locales[other.code];
+              return [
+                other.code,
+                {
+                  ...words.notFound,
+                  moreFrom: moreFrom.label(words, other),
+                  builtOn: moreFrom.builtOn?.label(words, other) ?? "",
+                  // Each app's tagline by its link, as the footer lists them.
+                  taglines: Object.fromEntries(
+                    moreFrom.apps.flatMap(({ url, tagline }) =>
+                      tagline ? [[url, tagline(words, other)]] : [],
+                    ),
+                  ),
+                },
+              ];
+            }),
+          ),
+        );
       default:
         return undefined;
     }
