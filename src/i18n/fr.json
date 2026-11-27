@@ -8,7 +8,7 @@
     "url": "https://sunnysays.app/fr/",
     "ogTitle": "sunnysays : un petit tournesol qui parle",
     "ogDescription": "Sunny vit dans votre barre des menus ou votre zone de notification, dit un mot de temps en temps et se tait pendant les appels. Gratuit sur Mac et Windows.",
-    "ogImageAlt": "Sunny, un tournesol souriant dans un pot en terre cuite, à côté d'une bulle de dialogue."
+    "ogImageAlt": "Sunny, un tournesol souriant dans un pot en terre cuite, à côté d'une bulle de dialogue."
   },
   "og": {
     "title1": "Un petit tournesol",
@@ -37,7 +37,7 @@
     "note": "Gratuit"
   },
   "hero": {
-    "title": "Un petit tournesol qui a son mot à dire.",
+    "title": "Un petit tournesol qui a son mot à dire.",
     "lede": "Il vit dans ta barre des menus ou ta zone de notification, glisse une phrase de temps en temps et sait quand se taire. Fais-lui passer une journée, juste en dessous.",
     "say": "Dis quelque chose",
     "shh": "Chut",
@@ -46,7 +46,7 @@
     "voiceLabel": "Voix de Sunny"
   },
   "get": {
-    "title": "Offrez à Sunny une place près de votre fenêtre."
+    "title": "Offrez à Sunny une place près de votre fenêtre."
   },
   "footer": {
     "privacy": "Confidentialité",
@@ -64,8 +64,8 @@
   "notFound": {
     "metaTitle": "Introuvable · sunnysays",
     "title": "Rien ne pousse ici.",
-    "body": "Cette page n'existe pas. Sunny a cherché partout. Enfin, partout où il peut voir depuis son pot.",
-    "home": "Retour à Sunny"
+    "body": "Cette page n'existe pas. Sunny a cherché partout. Enfin, partout où il peut voir depuis son pot.",
+    "home": "Retour à Sunny"
   },
   "runtime": {
     "themeLabels": {
@@ -82,7 +82,7 @@
       "shh": "Chut : pour une heure, le reste de la journée ou jusqu'à nouvel ordre.",
       "wake": "Il se réveille et lâche une petite phrase.",
       "wakeQuiet": "Le voilà réveillé, mais il reste discret.",
-      "callCut": "L'appel a commencé : il s'est tu en plein mot.",
+      "callCut": "L'appel a commencé : il s'est tu en plein mot.",
       "call": "En appel, il ne dit pas un mot.",
       "callOver": "Fin de l'appel : une petite phrase tout bas, puis tout redevient normal.",
       "callOverQuiet": "Fin de l'appel. Il reste discret.",
@@ -92,7 +92,7 @@
       "back": "Te revoilà. Une phrase, et il te laisse travailler.",
       "backQuiet": "Te revoilà, mais il reste discret.",
       "battery": "Il remarque les petits détails, comme la batterie qui faiblit.",
-      "batteryQuiet": "Il a vu la batterie. Il garde ça pour lui.",
+      "batteryQuiet": "Il a vu la batterie. Il garde ça pour lui.",
       "batteryOff": "C'est rebranché.",
       "dark": "Mode sombre : ça non plus, ça ne lui échappe pas.",
       "darkQuiet": "Mode sombre. Noté, sans un mot.",
@@ -108,7 +108,7 @@
     "call": "Tu prends un appel",
     "full": "Tu passes en plein écran",
     "away": "Tu t'éclipses",
-    "battery": "La batterie tombe à 8 %",
+    "battery": "La batterie tombe à 8 %",
     "dark": "Tu bascules en mode sombre",
     "night": "Il est 2 h du matin",
     "callWindow": "Réunion d'équipe",
@@ -116,7 +116,7 @@
     "locked": "Verrouillé"
   },
   "promise": {
-    "title": "Gratuit, et il n'envoie rien à personne.",
+    "title": "Gratuit, et il n'envoie rien à personne.",
     "network": "Pas de réseau",
     "body": "Tout est gratuit. Devenir Supporter ou laisser un pourboire, via l'App Store ou le Microsoft Store, ne débloque rien : c'est juste un merci."
   }

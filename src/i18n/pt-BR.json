@@ -4,10 +4,10 @@
   },
   "meta": {
     "title": "sunnysays: um girassolzinho que mora na sua barra de menus ou na bandeja do sistema",
-    "description": "Sunny é um girassol de vaso que mora na sua barra de menus ou na bandeja do sistema e diz algo mais ou menos uma vez por hora. Fica quieto durante chamadas. Sem rede. Grátis.",
+    "description": "Sunny é um girassol de vaso que mora na sua barra de menus ou na bandeja do sistema e diz algo mais ou menos uma vez por hora. Fica quieto durante chamadas. Sem rede. Grátis.",
     "url": "https://sunnysays.app/pt-br/",
     "ogTitle": "sunnysays: um girassolzinho que fala",
-    "ogDescription": "Sunny mora na sua barra de menus ou na bandeja do sistema, diz algo de vez em quando e fica quieto durante chamadas. Grátis para Mac e Windows.",
+    "ogDescription": "Sunny mora na sua barra de menus ou na bandeja do sistema, diz algo de vez em quando e fica quieto durante chamadas. Grátis para Mac e Windows.",
     "ogImageAlt": "Sunny, um girassol sorridente num vaso de terracota, ao lado de um balão de fala."
   },
   "og": {
@@ -16,7 +16,7 @@
     "subtitle": "Mora na barra de menus ou na bandeja do sistema. Quieto durante chamadas."
   },
   "a11y": {
-    "skipLink": "Pular para o conteúdo",
+    "skipLink": "Pular para o conteúdo",
     "sunny": "Sunny, um girassol de vaso. Toque nele para ouvir uma frase."
   },
   "nav": {
@@ -25,7 +25,7 @@
     "wordmarkAria": "sunnysays, voltar ao topo",
     "try": "Experimente",
     "privacy": "Privacidade",
-    "cta": "Conheça o Sunny",
+    "cta": "Conheça o Sunny",
     "languageLabel": "Idioma",
     "themeLabel": "Aparência"
   },
@@ -38,7 +38,7 @@
   },
   "hero": {
     "title": "Um girassolzinho que diz coisas.",
-    "lede": "Mora na sua barra de menus ou na bandeja do sistema, solta uma frase de vez em quando e sabe a hora de se calar. Invente um dia pra ele aqui embaixo.",
+    "lede": "Mora na sua barra de menus ou na bandeja do sistema, solta uma frase de vez em quando e sabe a hora de se calar. Invente um dia pra ele aqui embaixo.",
     "say": "Dizer algo",
     "shh": "Xiu",
     "wake": "Acordar",
@@ -52,11 +52,11 @@
     "privacy": "Privacidade",
     "terms": "Termos",
     "contact": "Contato",
-    "openSource": "Este site é de código aberto",
+    "openSource": "Este site é de código aberto",
     "fonts": "Composto em Fredoka (SIL Open Font License).",
     "moreFrom": "Outros apps do mesmo criador",
     "taglines": {
-      "mybackhurts": "tira você da cadeira a cada 45 minutos",
+      "mybackhurts": "tira você da cadeira a cada 45 minutos",
       "pagliacci": "conta uma piada mais ou menos uma vez por hora"
     },
     "builtOn": "Feito com Laching"
@@ -65,31 +65,31 @@
     "metaTitle": "Não encontrada · sunnysays",
     "title": "Aqui não nasce nada.",
     "body": "Esta página não existe. Sunny procurou por toda parte. Bem, por tudo que dá para ver do vaso.",
-    "home": "Voltar para o Sunny"
+    "home": "Voltar para o Sunny"
   },
   "runtime": {
     "themeLabels": {
-      "system": "Aparência: seguir o sistema",
+      "system": "Aparência: seguir o sistema",
       "light": "Aparência: clara",
       "dark": "Aparência: escura"
     },
     "shushed": "(xiu)",
     "rules": {
-      "start": "Toque em qualquer botão aqui embaixo. O Sunny segue as mesmas regras que no seu computador.",
+      "start": "Toque em qualquer botão aqui embaixo. O Sunny segue as mesmas regras que no seu computador.",
       "poke": "Aperte quando quiser. No computador, ele também puxa assunto sozinho, mais ou menos uma vez por hora.",
       "polite": "Agora não, por educação.",
       "shushedPoke": "Em silêncio. Toque em Acordar para ouvir de novo.",
-      "shh": "Xiu: por uma hora, até o fim do dia ou até você liberar.",
-      "wake": "Acorda e já solta uma frase.",
+      "shh": "Xiu: por uma hora, até o fim do dia ou até você liberar.",
+      "wake": "Acorda e já solta uma frase.",
       "wakeQuiet": "Acordou, mas segue na moita.",
-      "callCut": "Começou uma call, e ele parou no meio da palavra.",
+      "callCut": "Começou uma call, e ele parou no meio da palavra.",
       "call": "Em call, não dá um pio.",
-      "callOver": "Acabou a call: uma frase baixinha e tudo volta ao normal.",
-      "callOverQuiet": "Acabou a call, mas ele continua quietinho.",
+      "callOver": "Acabou a call: uma frase baixinha e tudo volta ao normal.",
+      "callOverQuiet": "Acabou a call, mas ele continua quietinho.",
       "full": "Tela cheia: ele espera você voltar.",
-      "fullOff": "Saiu da tela cheia. E ele não atrapalhou nenhum slide.",
+      "fullOff": "Saiu da tela cheia. E ele não atrapalhou nenhum slide.",
       "away": "Mesa vazia ou tela bloqueada: ele não fala com as paredes.",
-      "back": "Olha você aí! Uma frase e ele te deixa trabalhar.",
+      "back": "Olha você aí! Uma frase e ele te deixa trabalhar.",
       "backQuiet": "Olha você aí, mas ele continua quietinho.",
       "battery": "Ele repara nas pequenas coisas, tipo bateria fraca.",
       "batteryQuiet": "Reparou na bateria, mas ficou na dele.",
@@ -98,26 +98,26 @@
       "darkQuiet": "Modo escuro. Anotado, sem alarde.",
       "darkOff": "De volta ao modo claro.",
       "night": "De madrugada, ele avisa com jeitinho. Você escolhe os horários dele.",
-      "nightQuiet": "Tarde da noite, e ele quietinho.",
+      "nightQuiet": "Tarde da noite, e ele quietinho.",
       "nightOff": "Amanheceu."
     }
   },
   "desk": {
-    "ariaLabel": "Uma telinha de Mac com o painel do Sunny aberto na barra de menus",
-    "toggles": "E se…",
+    "ariaLabel": "Uma telinha de Mac com o painel do Sunny aberto na barra de menus",
+    "toggles": "E se…",
     "call": "Entrar numa call",
-    "full": "Ativar a tela cheia",
+    "full": "Ativar a tela cheia",
     "away": "Sair de perto",
-    "battery": "A bateria cair pra 8%",
-    "dark": "Ligar o modo escuro",
+    "battery": "A bateria cair pra 8%",
+    "dark": "Ligar o modo escuro",
     "night": "Passar das 2 da manhã",
     "callWindow": "Reunião da equipe",
     "presenting": "Apresentando · tela cheia",
     "locked": "Bloqueado"
   },
   "promise": {
-    "title": "Grátis, e não manda nada para ninguém.",
+    "title": "Grátis, e não manda nada para ninguém.",
     "network": "Sem internet",
-    "body": "Tudo é grátis. Virar Apoiador ou deixar uma gorjeta, pela App Store ou pela Microsoft Store, não libera nada: é só um obrigado."
+    "body": "Tudo é grátis. Virar Apoiador ou deixar uma gorjeta, pela App Store ou pela Microsoft Store, não libera nada: é só um obrigado."
   }
 }

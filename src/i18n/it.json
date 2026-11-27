@@ -3,12 +3,12 @@
     "lang": "it"
   },
   "meta": {
-    "title": "sunnysays: un piccolo girasole che vive nella barra dei menu o nell'area di notifica",
-    "description": "Sunny è un girasole in vaso che vive nella barra dei menu o nell'area di notifica e dice qualcosa più o meno una volta all'ora. Zitto durante le chiamate. Niente rete. Gratis.",
+    "title": "sunnysays: un piccolo girasole che vive nella barra dei menu o nell'area di notifica",
+    "description": "Sunny è un girasole in vaso che vive nella barra dei menu o nell'area di notifica e dice qualcosa più o meno una volta all'ora. Zitto durante le chiamate. Niente rete. Gratis.",
     "url": "https://sunnysays.app/it/",
     "ogTitle": "sunnysays: un piccolo girasole che parla",
-    "ogDescription": "Sunny vive nella barra dei menu o nell'area di notifica, dice qualcosa ogni tanto e sta in silenzio durante le chiamate. Gratis per Mac e Windows.",
-    "ogImageAlt": "Sunny, un girasole sorridente in un vaso di terracotta, accanto a un fumetto."
+    "ogDescription": "Sunny vive nella barra dei menu o nell'area di notifica, dice qualcosa ogni tanto e sta in silenzio durante le chiamate. Gratis per Mac e Windows.",
+    "ogImageAlt": "Sunny, un girasole sorridente in un vaso di terracotta, accanto a un fumetto."
   },
   "og": {
     "title1": "Un piccolo girasole",
@@ -38,7 +38,7 @@
   },
   "hero": {
     "title": "Un piccolo girasole che dice cose.",
-    "lede": "Vive nella barra dei menu o nell'area di notifica, ogni tanto dice la sua e sa quando è il momento di tacere. Provalo qui sotto.",
+    "lede": "Vive nella barra dei menu o nell'area di notifica, ogni tanto dice la sua e sa quando è il momento di tacere. Provalo qui sotto.",
     "say": "Di' qualcosa",
     "shh": "Shh",
     "wake": "Svegliati",
@@ -46,18 +46,18 @@
     "voiceLabel": "La voce di Sunny"
   },
   "get": {
-    "title": "Dai a Sunny un posto vicino alla tua finestra."
+    "title": "Dai a Sunny un posto vicino alla tua finestra."
   },
   "footer": {
     "privacy": "Privacy",
     "terms": "Termini",
     "contact": "Contatti",
-    "openSource": "Questo sito è open source",
+    "openSource": "Questo sito è open source",
     "fonts": "Composto in Fredoka (SIL Open Font License).",
     "moreFrom": "Dello stesso autore",
     "taglines": {
       "mybackhurts": "ti stacca dalla sedia ogni 45 minuti",
-      "pagliacci": "racconta una battuta più o meno una volta all'ora"
+      "pagliacci": "racconta una battuta più o meno una volta all'ora"
     },
     "builtOn": "Fatto con Laching"
   },
@@ -76,19 +76,19 @@
     "shushed": "(shh)",
     "rules": {
       "start": "Tocca un pulsante qui sotto: Sunny segue le stesse regole che sul tuo computer.",
-      "poke": "Premilo quando vuoi. Sul computer, poi, parla anche da solo, più o meno una volta all'ora.",
+      "poke": "Premilo quando vuoi. Sul computer, poi, parla anche da solo, più o meno una volta all'ora.",
       "polite": "Non ora: sa come comportarsi.",
       "shushedPoke": "Fa silenzio. Premi Svegliati per risentirlo.",
-      "shh": "Shh: per un'ora, per il resto della giornata o finché vuoi tu.",
+      "shh": "Shh: per un'ora, per il resto della giornata o finché vuoi tu.",
       "wake": "Si risveglia con una frase.",
-      "wakeQuiet": "È sveglio, ma resta in silenzio.",
-      "callCut": "È partita la call: si è zittito a metà parola.",
+      "wakeQuiet": "È sveglio, ma resta in silenzio.",
+      "callCut": "È partita la call: si è zittito a metà parola.",
       "call": "In call non fiata.",
       "callOver": "Call finita: una frase sottovoce, poi tutto torna come prima.",
       "callOverQuiet": "Call finita, ma per ora resta in silenzio.",
       "full": "Schermo intero: aspetta che tu abbia finito.",
-      "fullOff": "Niente più schermo intero. E non ha mai parlato sopra le tue slide.",
-      "away": "Scrivania vuota o schermo bloccato: non parla al muro.",
+      "fullOff": "Niente più schermo intero. E non ha mai parlato sopra le tue slide.",
+      "away": "Scrivania vuota o schermo bloccato: non parla al muro.",
       "back": "Eccoti di nuovo. Una frase, poi ti lascia lavorare.",
       "backQuiet": "Eccoti di nuovo, ma per ora resta in silenzio.",
       "battery": "Nota le piccole cose, come la batteria quasi scarica.",
@@ -97,16 +97,16 @@
       "dark": "Tema scuro: non gli sfugge nemmeno questo.",
       "darkQuiet": "Tema scuro: notato, senza dire niente.",
       "darkOff": "Di nuovo in chiaro.",
-      "night": "A notte fonda te lo fa notare, con garbo. Gli orari li scegli tu.",
-      "nightQuiet": "È tardi, e non fiata.",
-      "nightOff": "Ed è di nuovo mattina."
+      "night": "A notte fonda te lo fa notare, con garbo. Gli orari li scegli tu.",
+      "nightQuiet": "È tardi, e non fiata.",
+      "nightOff": "Ed è di nuovo mattina."
     }
   },
   "desk": {
     "ariaLabel": "Un piccolo schermo di Mac con il pannello di Sunny aperto dalla barra dei menu",
-    "toggles": "E se…",
+    "toggles": "E se…",
     "call": "Entri in call",
-    "full": "Vai a schermo intero",
+    "full": "Vai a schermo intero",
     "away": "Ti allontani",
     "battery": "Batteria all'8%",
     "dark": "Passi al tema scuro",
@@ -116,8 +116,8 @@
     "locked": "Bloccato"
   },
   "promise": {
-    "title": "Gratis, e non manda niente a nessuno.",
+    "title": "Gratis, e non manda niente a nessuno.",
     "network": "Niente internet",
-    "body": "È tutto gratis. Diventare Sostenitore o lasciare una mancia, dall'App Store o dal Microsoft Store, non sblocca niente: è solo un grazie."
+    "body": "È tutto gratis. Diventare Sostenitore o lasciare una mancia, dall'App Store o dal Microsoft Store, non sblocca niente: è solo un grazie."
   }
 }
