@@ -153,15 +153,15 @@ const landing = companionLanding({
     apps: [
       {
         name: "mybackhurts",
-        url: "https://mybackhurts.app/",
+        url: "https://mybackhurts.app",
         tagline: (locale) => String(locale.footer.taglines.mybackhurts),
       },
       {
         name: "Mister Pagliacci",
-        url: "https://pagliacci.app/",
+        url: "https://pagliacci.app",
         tagline: (locale) => String(locale.footer.taglines.pagliacci),
       },
-      { name: "sunnysays", url: "https://sunnysays.app/" },
+      { name: "sunnysays", url: "https://sunnysays.app" },
     ],
     label: (locale) => String(locale.footer.moreFrom),
     builtOn: {
