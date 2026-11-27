@@ -12,11 +12,58 @@ import {
 } from "./src/i18n/languages";
 
 const root = __dirname;
+
+/**
+ * The one-letter words that never end a line on the page ("à / la lumière", "y / nadie"), per language. Sunny's
+ * lines come from the catalog, which the app shares, and the locale files get new strings from the localization
+ * workflow, so the join happens here, on the page's copy, wherever the text comes from.
+ */
+const oneLetterWords: Partial<Record<LanguageCode, readonly string[]>> = {
+  "pt-BR": ["a", "o", "e", "é", "à"],
+  es: ["y", "a", "o", "e", "u"],
+  fr: ["à", "y", "a"],
+  it: ["e", "a", "o", "è", "i"],
+  ro: ["a", "o", "e", "ș-i"],
+};
+
+/** Text as the page shows it in a language: its one-letter words kept with the next word. */
+function keepOneLetterWords(text: string, code: LanguageCode): string {
+  const words = oneLetterWords[code];
+  if (!words) return text;
+  // A whole word only, not the "a" of "s-a" or "l'a"; the space after it becomes a no-break space (U+00A0).
+  const oneLetter = new RegExp(`(?<![\\p{L}\\p{N}'’-])(${words.join("|")}) (?=\\S)`, "giu");
+  // Then a one-letter part before a hyphen ("M-ai", "N-am", "garde-à-vous") keeps the rest of its word on
+  // its line: a word joiner (U+2060) after the hyphen, as in "într-un". This runs second, so the "a" of
+  // "S-a" is never taken for a word of its own above. Text that already has the join is left as it is.
+  const hyphenated = /(?<![\p{L}\p{N}])(\p{L})-(?=\p{L})/gu;
+  return text
+    .replace(oneLetter, `$1${String.fromCodePoint(0xa0)}`)
+    .replace(hyphenated, `$1-${String.fromCodePoint(0x2060)}`);
+}
+
+/** A locale file's strings, each kept by `keepOneLetterWords`. */
+function keepOneLetterWordsIn(value: unknown, code: LanguageCode): unknown {
+  if (typeof value === "string") return keepOneLetterWords(value, code);
+  if (value && typeof value === "object")
+    return Object.fromEntries(
+      Object.entries(value).map(([key, entry]) => [key, keepOneLetterWordsIn(entry, code)]),
+    );
+  return value;
+}
+
+/**
+ * Each language's locale file, its page copy joined like Sunny's lines. `meta` (the head's tags and the URL)
+ * and `og` (the social card, whose lines never wrap) stay as written.
+ */
 const locales = Object.fromEntries(
-  languages.map(({ code }) => [
-    code,
-    JSON.parse(readFileSync(resolve(root, `src/i18n/${code}.json`), "utf8")),
-  ]),
+  languages.map(({ code }) => {
+    const locale = JSON.parse(readFileSync(resolve(root, `src/i18n/${code}.json`), "utf8"));
+    const shown = Object.entries(locale).map(([key, value]) => [
+      key,
+      key === "meta" || key === "og" ? value : keepOneLetterWordsIn(value, code),
+    ]);
+    return [code, Object.fromEntries(shown)];
+  }),
 ) as Record<LanguageCode, any>;
 
 function catalogString(key: string, language: Language): string {
@@ -30,33 +77,9 @@ function phrase(id: string, language: Language): string {
   return catalogString(`phrase.${id}`, language);
 }
 
-/**
- * The one-letter words that never end a line in each language's bubble ("à / la lumière", "y / nadie"). The
- * landing's own JSON joins them to the next word with a no-break space by hand; Sunny's lines come from the
- * catalog, which the app shares, so the join happens here, on the page's copy only.
- */
-const oneLetterWords: Partial<Record<LanguageCode, readonly string[]>> = {
-  "pt-BR": ["a", "o", "e", "é", "à"],
-  es: ["y", "a", "o", "e", "u"],
-  fr: ["à", "y", "a"],
-  it: ["e", "a", "o", "è", "i"],
-  ro: ["a", "o", "e", "ș-i"],
-};
-
 /** A line of Sunny's as the page shows it: the catalog text, its one-letter words kept with the next word. */
 function shownPhrase(id: string, language: Language): string {
-  const text = phrase(id, language);
-  const words = oneLetterWords[language.code];
-  if (!words) return text;
-  // A whole word only, not the "a" of "s-a" or "l'a"; the space after it becomes a no-break space (U+00A0).
-  const oneLetter = new RegExp(`(?<![\\p{L}\\p{N}'’-])(${words.join("|")}) (?=\\S)`, "giu");
-  // Then a one-letter part before a hyphen ("M-ai", "N-am", "garde-à-vous") keeps the rest of its word on
-  // its line: a word joiner (U+2060) after the hyphen, as ro.json does in "într-un". This runs second, so
-  // the "a" of "S-a" is never taken for a word of its own above.
-  const hyphenated = /(?<![\p{L}\p{N}])(\p{L})-(?=\p{L})/gu;
-  return text
-    .replace(oneLetter, `$1${String.fromCodePoint(0xa0)}`)
-    .replace(hyphenated, `$1-${String.fromCodePoint(0x2060)}`);
+  return keepOneLetterWords(phrase(id, language), language.code);
 }
 
 /** A line as the page's script gets it: the text, plus each recorded voice's clip where the language has one. */
