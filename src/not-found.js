@@ -1,7 +1,8 @@
 import { languages } from "./i18n/languages";
 
 // The host serves this one page, built in English, for every missing URL. Show it in the visitor's language
-// instead: the one in the path, else the one saved on the site, else their browser's. No match keeps English.
+// instead: the one in the path, else a saved choice (no page here saves one yet), else their browser's. No match
+// keeps English.
 const locales = JSON.parse(document.getElementById("not-found-i18n")?.textContent || "{}");
 
 function pickLanguage() {
@@ -13,7 +14,8 @@ function pickLanguage() {
       languages.find(({ code }) => code.toLowerCase().split("-")[0] === base)
     );
   };
-  const path = location.pathname.toLowerCase();
+  // With a slash on the end, so /fr and /FR count as /fr/ too.
+  const path = `${location.pathname.toLowerCase()}/`;
   const fromPath = languages.find(
     (language) => language.path !== "/" && path.startsWith(language.path),
   );
@@ -44,7 +46,11 @@ if (locale) {
   setText(home, locale.home);
   // The links come from the build's own list of languages, not from text on the page.
   home?.setAttribute("href", language.path);
-  document.querySelector(".wordmark")?.setAttribute("href", language.path);
+  const wordmark = document.querySelector(".wordmark");
+  wordmark?.setAttribute("href", language.path);
+  // The masthead's labels, so a screen reader speaks them in the page's language too.
+  if (locale.wordmarkAria) wordmark?.setAttribute("aria-label", locale.wordmarkAria);
+  if (locale.navAria) document.querySelector(".nav")?.setAttribute("aria-label", locale.navAria);
   // The footer: its label, each app's tagline (found by the app's link) and the Laching link.
   setText(document.querySelector(".more-from-label"), locale.moreFrom);
   setText(document.querySelector(".built-on a"), locale.builtOn);

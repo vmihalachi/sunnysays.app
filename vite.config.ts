@@ -269,6 +269,8 @@ const landing = companionLanding({
                 other.code,
                 {
                   ...words.notFound,
+                  navAria: words.nav.ariaLabel,
+                  wordmarkAria: words.nav.wordmarkAria,
                   moreFrom: moreFrom.label(words, other),
                   builtOn: moreFrom.builtOn?.label(words, other) ?? "",
                   // Each app's tagline by its link, as the footer lists them.
