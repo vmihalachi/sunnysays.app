@@ -30,10 +30,39 @@ function phrase(id: string, language: Language): string {
   return catalogString(`phrase.${id}`, language);
 }
 
+/**
+ * The one-letter words that never end a line in each language's bubble ("à / la lumière", "y / nadie"). The
+ * landing's own JSON joins them to the next word with a no-break space by hand; Sunny's lines come from the
+ * catalog, which the app shares, so the join happens here, on the page's copy only.
+ */
+const oneLetterWords: Partial<Record<LanguageCode, readonly string[]>> = {
+  "pt-BR": ["a", "o", "e", "é", "à"],
+  es: ["y", "a", "o", "e", "u"],
+  fr: ["à", "y", "a"],
+  it: ["e", "a", "o", "è", "i"],
+  ro: ["a", "o", "e", "ș-i"],
+};
+
+/** A line of Sunny's as the page shows it: the catalog text, its one-letter words kept with the next word. */
+function shownPhrase(id: string, language: Language): string {
+  const text = phrase(id, language);
+  const words = oneLetterWords[language.code];
+  if (!words) return text;
+  // A whole word only, not the "a" of "s-a" or "l'a"; the space after it becomes a no-break space (U+00A0).
+  const oneLetter = new RegExp(`(?<![\\p{L}\\p{N}'’-])(${words.join("|")}) (?=\\S)`, "giu");
+  // Then a one-letter part before a hyphen ("M-ai", "N-am", "garde-à-vous") keeps the rest of its word on
+  // its line: a word joiner (U+2060) after the hyphen, as ro.json does in "într-un". This runs second, so
+  // the "a" of "S-a" is never taken for a word of its own above.
+  const hyphenated = /(?<![\p{L}\p{N}])(\p{L})-(?=\p{L})/gu;
+  return text
+    .replace(oneLetter, `$1${String.fromCodePoint(0xa0)}`)
+    .replace(hyphenated, `$1-${String.fromCodePoint(0x2060)}`);
+}
+
 /** A line as the page's script gets it: the text, plus each recorded voice's clip where the language has one. */
 function spokenLine(id: string, language: Language) {
   const voices = voice.clips(language.code, id);
-  return { text: phrase(id, language), ...(voices ? { voices } : {}) };
+  return { text: shownPhrase(id, language), ...(voices ? { voices } : {}) };
 }
 
 /**
@@ -174,7 +203,8 @@ const landing = companionLanding({
     },
   },
   placeholders: (key, language, locale) => {
-    if (key.startsWith("line.")) return escapeHtml(phrase(key.slice("line.".length), language));
+    if (key.startsWith("line."))
+      return escapeHtml(shownPhrase(key.slice("line.".length), language));
     switch (key) {
       case "runtimeJson":
         return scriptJson({
