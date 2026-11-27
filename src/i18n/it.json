@@ -54,12 +54,12 @@
     "contact": "Contatti",
     "openSource": "Questo sito è open source",
     "fonts": "Composto in Fredoka (SIL Open Font License).",
-    "moreFrom": "Altre app dello stesso autore",
+    "moreFrom": "Dello stesso autore",
     "taglines": {
       "mybackhurts": "ti stacca dalla sedia ogni 45 minuti",
       "pagliacci": "racconta una battuta più o meno una volta all'ora"
     },
-    "builtOn": "Basato su Laching"
+    "builtOn": "Fatto con Laching"
   },
   "notFound": {
     "metaTitle": "Non trovata · sunnysays",
