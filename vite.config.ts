@@ -36,9 +36,14 @@ function keepOneLetterWords(text: string, code: LanguageCode): string {
   // its line: a word joiner (U+2060) after the hyphen, as in "într-un". This runs second, so the "a" of
   // "S-a" is never taken for a word of its own above. Text that already has the join is left as it is.
   const hyphenated = /(?<![\p{L}\p{N}])(\p{L})-(?=\p{L})/gu;
-  return text
+  const joined = text
     .replace(oneLetter, `$1${String.fromCodePoint(0xa0)}`)
     .replace(hyphenated, `$1-${String.fromCodePoint(0x2060)}`);
+  // Romanian also hangs a short pronoun or verb on a word with a hyphen ("Nu-i", "să-ți", "Ne-am", "Pune-l"):
+  // it stays with that word, the same word joiner after the hyphen. Only one or two letters that end the word
+  // count, so "floare-a-soarelui" can still break after "floare-".
+  const clitic = /(?<=\p{L})-(?=\p{L}{1,2}(?![\p{L}\p{N}-]))/gu;
+  return code === "ro" ? joined.replace(clitic, `-${String.fromCodePoint(0x2060)}`) : joined;
 }
 
 /** A locale file's strings, each kept by `keepOneLetterWords`. */
