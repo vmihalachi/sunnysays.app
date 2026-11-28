@@ -1,8 +1,8 @@
 import { languages } from "./i18n/languages";
 
 // The host serves this one page, built in English, for every missing URL. Show it in the visitor's language
-// instead: the one in the path, else a saved choice (no page here saves one yet), else their browser's. No match
-// keeps English.
+// instead: the one in the path, else the one they last picked in the home page's switcher, else their browser's.
+// No match keeps English.
 const locales = JSON.parse(document.getElementById("not-found-i18n")?.textContent || "{}");
 
 function pickLanguage() {
