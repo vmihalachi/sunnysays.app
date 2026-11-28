@@ -1,6 +1,6 @@
-// The landing page's only script: the theme toggle, the store buttons' order and the hero's Sunny. It fetches nothing but Sunny's recorded
-// clips from this site, and stores nothing beyond the chosen theme and voice. Timings follow
-// design/characters/sunflower/sunflower.rig.json.
+// The landing page's only script: the theme toggle, the chosen language, the store buttons' order and the hero's
+// Sunny. It fetches nothing but Sunny's recorded clips from this site, and stores nothing beyond the chosen theme,
+// language and voice. Timings follow design/characters/sunflower/sunflower.rig.json.
 
 const i18n = JSON.parse(document.getElementById("runtime-i18n")?.textContent || "{}");
 const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
@@ -36,6 +36,15 @@ if (themeToggle) {
   themeToggle.addEventListener("click", () => {
     const next = themeModes[(themeModes.indexOf(themeToggle.dataset.mode) + 1) % themeModes.length];
     applyTheme(next);
+  });
+}
+
+// LANGUAGE: a chosen language stops the root page from redirecting by the browser's, and the 404 page shows it.
+for (const link of document.querySelectorAll("[data-lang]")) {
+  link.addEventListener("click", () => {
+    try {
+      localStorage.setItem("lang", link.dataset.lang);
+    } catch {}
   });
 }
 
